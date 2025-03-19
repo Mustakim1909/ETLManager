@@ -1,4 +1,6 @@
-﻿using ETLManager.Service.Model;
+﻿using Common.DataAccess.PostgreSql;
+using ETL.Service.Repo.Interface;
+using ETLManager.Service.Model;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
@@ -13,10 +15,12 @@ namespace ETLManager
         private readonly Appsettings _appsettings;
         private readonly List<WatcherConfig> _watcherConfigs;
         private static readonly object _logLock = new object();
+        private readonly IETLManagerService _eTLManagerService;
 
-        public ETLManagerWatcher(IOptions<Appsettings> appsettings, IOptions<List<WatcherConfig>> watcherConfigs)
+        public ETLManagerWatcher(IOptions<Appsettings> appsettings, IOptions<List<WatcherConfig>> watcherConfigs,IETLManagerService eTLManagerService)
         {
             _appsettings = appsettings.Value;
+            _eTLManagerService = eTLManagerService;
             _watchers = new List<FileSystemWatcher>();
             _watcherConfigs = watcherConfigs.Value;
             // Initialize the watchers based on the path and domain configurations
@@ -71,7 +75,7 @@ namespace ETLManager
 
                 foreach (var config in _watcherConfigs)
                 {
-                    string fullPath = Path.Combine(config.Path, config.DomainName, "CNSUN", "Input", "Source");
+                    await _eTLManagerService.GetConnectionString(config.DomainName);
 
                     // Create a single task for each domain
                     domainTasks.Add(Task.Run(async () =>
@@ -80,7 +84,7 @@ namespace ETLManager
                         LogThreadSafe($"Started task: {taskName}");
 
                         // Process files for the domain
-                        await ProcessDomainFiles(fullPath, config.DomainName, cancellationToken);
+                        await ProcessDomainFiles(config.Path, config.DomainName, cancellationToken);
                     }));
                 }
                 // Wait for all domain tasks t  o complete
@@ -93,15 +97,26 @@ namespace ETLManager
                 throw;
             }
         }
-
-        private async Task ProcessDomainFiles(string fullPath, string domainName, CancellationToken cancellationToken)
+        
+        private async Task ProcessDomainFiles(string SourcePath, string domainName, CancellationToken cancellationToken)
         {
             try
             {
                 LogThreadSafe($"Processing domain: {domainName}");
 
-                // Get all files from the current domain path
-                var files = Directory.GetFiles(fullPath, "*.csv");               
+                List<string> files = new List<string>();
+                var paths = await _eTLManagerService.GetPath();
+                foreach (var path in paths)
+                {
+                    string fullPath = Path.Combine(SourcePath, domainName, path.FinPutSource);
+                    if (!Directory.Exists(fullPath))
+                    {
+                        return;
+                    }
+                    // Get all files from the current domain path
+                    var file = Directory.GetFiles(fullPath, "*.csv");
+                    files.AddRange(file);
+                }              
 
                 var filesToProcess = new List<string>();
                 // Process the files in this domain sequentially or asynchronously without thread for each file
@@ -128,7 +143,7 @@ namespace ETLManager
                         var result = await RetriveCsv(filesToProcess, CancellationToken.None);
                     }
                     //var result = await RetriveCsv(filesToProcess, CancellationToken.None);
-                }
+                 }
                 catch (Exception ex)
                 {
                     LogThreadSafe($"Error processing files  {files}: {ex.Message}");
@@ -310,51 +325,53 @@ namespace ETLManager
         private async void OnCreated(object sender, FileSystemEventArgs e)
         {
             // Handle the file creation event
-            if (e.FullPath.Contains("Input\\Source"))       
+            if(!e.FullPath.Contains("Temp_Process") && !e.FullPath.Contains("Processed"))
             {
-                string directoryPath = Path.GetDirectoryName(e.FullPath);
-                var pathlist = directoryPath.Split(Path.DirectorySeparatorChar).ToList();
-                var domainname = pathlist[pathlist.Count - 4];
-                // Get all the files that match the filter in the directory
-                var files = Directory.GetFiles(directoryPath, _appsettings.WatcherFilter);
-
-                // List to hold files to be passed to RetriveCsv
-                var filesToProcess = new List<string>();
-
-                foreach (var file in files)
+                if (e.FullPath.Contains("Input\\Source"))
                 {
-                    var filename = file.Replace(" ", "_");
+                    string directoryPath = Path.GetDirectoryName(e.FullPath);
+                    var pathlist = directoryPath.Split(Path.DirectorySeparatorChar).ToList();
+                    var domainname = pathlist[pathlist.Count - 4];
+                    // Get all the files that match the filter in the directory
+                    var files = Directory.GetFiles(directoryPath, _appsettings.WatcherFilter);
 
-                    // Move the file if not already moved
-                    if (!File.Exists(filename))
+                    // List to hold files to be passed to RetriveCsv
+                    var filesToProcess = new List<string>();
+
+                    foreach (var file in files)
                     {
-                        File.Move(file, filename);
+                        var filename = file.Replace(" ", "_");
+
+                        // Move the file if not already moved
+                        if (!File.Exists(filename))
+                        {
+                            File.Move(file, filename);
+                        }
+
+                        // Add the file to the list of files to process
+                        filesToProcess.Add(filename);
                     }
 
-                    // Add the file to the list of files to process
-                    filesToProcess.Add(filename);
-                }
-
-                try
-                {
-                    // Process all the files at once by passing the list to RetriveCsv
-                    int batchSize = 10;
-                    for (int i = 0; i < filesToProcess.Count; i += batchSize)
+                    try
                     {
-                        var batch = filesToProcess.Skip(i).Take(batchSize).ToList();
-                        var result = await RetriveCsv(filesToProcess, CancellationToken.None);
-                    }
+                        // Process all the files at once by passing the list to RetriveCsv
+                        int batchSize = 10;
+                        for (int i = 0; i < filesToProcess.Count; i += batchSize)
+                        {
+                            var batch = filesToProcess.Skip(i).Take(batchSize).ToList();
+                            var result = await RetriveCsv(filesToProcess, CancellationToken.None);
+                        }
 
-                }
-                catch (Exception ex)
-                {
-                    LogThreadSafe($"Error processing files in directory {directoryPath}: {ex.Message}");
-                    throw;
+                    }
+                    catch (Exception ex)
+                    {
+                        LogThreadSafe($"Error processing files in directory {directoryPath}: {ex.Message}");
+                        throw;
+                    }
                 }
             }
+            
         }
-
-
         public Task StopAsync(CancellationToken cancellationToken)
         {
             // Stop the watcher
@@ -365,6 +382,7 @@ namespace ETLManager
 
             return Task.CompletedTask;
         }
+       
     }
 
 }

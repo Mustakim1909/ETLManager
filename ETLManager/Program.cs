@@ -1,6 +1,9 @@
 ﻿using Common.Config;
 using Common.DataAccess.MsSql;
 using Common.Security;
+using ETL.Service.ETLDemoFactorySetting;
+using ETL.Service.Model;
+using ETL.Service.Repo.Interface;
 using ETLManager.Service.Model;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -76,9 +79,41 @@ namespace ETLManager
             .UseWindowsService()
                .ConfigureServices((context, services) =>
                {
+                   var config = new DbConfig();
+                   var section = context.Configuration.GetSection("DatabaseSettings");
+                   config = section.Get<DbConfig>();
+                   var appSetting = new ETLAppSettings();
+                   var appSettingSection = context.Configuration.GetSection("ETLAppSettings");
+                   appSetting = appSettingSection.Get<ETLAppSettings>();
                    services.Configure<Appsettings>(context.Configuration.GetSection("ETLAppSettings"));
                    services.Configure<List<WatcherConfig>>(context.Configuration.GetSection("WatcherConfigs"));
                    services.AddHostedService<ETLManagerWatcher>();
+
+                   services.AddScoped<IETLManagerService>(x =>
+                   {
+
+
+                       var configuration = context.Configuration;
+                       var dbConfig = configuration.GetSection("DatabaseSettings").Get<DbConfig>();
+                       var appSetting = configuration.GetSection("ETLAppSettings").Get<ETLAppSettings>();
+                       //string connection = configuration.GetConnectionString("Database");
+                       var encPassword = string.Empty;
+                       var password = string.Empty;
+                       encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(9);
+                       password = SecurityHelper.DecryptWithEmbedKey(encPassword);
+                       //if (dbConfig.PasswordUtility != null && dbConfig.PasswordUtility.ToLower() == "old")
+                       //{
+                       //    password = SecurityHelper.DecryptWithEmbedKey(encPassword, 15);
+                       //}
+                       //else
+                       //{
+                       //    password = SecurityHelper.DecryptWithEmbedKey(encPassword);
+                       //}
+
+                       dbConfig.ConnectionString = dbConfig.ConnectionString.Replace(encPassword, password);
+
+                       return ETLDemoServiceFactory.GetETLDemoService(dbConfig);
+                   });
                });
     }
 }
