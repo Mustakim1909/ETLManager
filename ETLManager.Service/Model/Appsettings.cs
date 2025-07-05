@@ -16,5 +16,6 @@ namespace ETLManager.Service.Model
         public string Operatingsystem { get; set; }
         public string PythonExe { get; set; }
         public string PythonScript { get; set; }
+        public string CompanyName { get; set; }
     }
 }

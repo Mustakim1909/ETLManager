@@ -1,0 +1,272 @@
+2025-05-31 11:55:22.246 +05:30 [INF] Application starting up
+2025-05-31 11:55:25.309 +05:30 [INF] Start
+2025-05-31 11:55:26.855 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 11:55:26.856 +05:30 [INF] Processing domain: JPS
+2025-05-31 11:56:37.283 +05:30 [INF] Application starting up
+2025-05-31 11:56:38.084 +05:30 [INF] Start
+2025-05-31 11:56:39.607 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 11:56:57.221 +05:30 [INF] Processing domain: JPS
+2025-05-31 12:11:33.255 +05:30 [INF] Application starting up
+2025-05-31 12:11:34.241 +05:30 [INF] Start
+2025-05-31 12:11:35.579 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 12:11:40.888 +05:30 [INF] Processing domain: JPS
+2025-05-31 12:11:50.154 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:11:50.453 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 12:11:50.453 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 12:11:50.453 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 12:11:50.635 +05:30 [INF] Application starting up
+2025-05-31 12:11:50.702 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 12:11:50.830 +05:30 [INF] Start
+2025-05-31 12:11:50.893 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:11:50.893 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:11:50.895 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:11:51.890 +05:30 [INF] Extracted Invoice Number: WIP
+2025-05-31 12:11:51.891 +05:30 [INF] Extracted Invoice Type: -
+2025-05-31 12:11:51.891 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 12:11:52.637 +05:30 [INF] CSV Data Found
+2025-05-31 12:11:52.645 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.646 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.648 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.648 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.648 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:11:52.648 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:11:52.648 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:31:40.532 +05:30 [INF] Application starting up
+2025-05-31 12:31:40.759 +05:30 [INF] Start
+2025-05-31 12:31:41.677 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 12:31:41.678 +05:30 [INF] Processing domain: JPS
+2025-05-31 12:32:01.688 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:32:01.852 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 12:32:01.855 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 12:32:01.856 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 12:32:02.007 +05:30 [INF] Application starting up
+2025-05-31 12:32:02.052 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 12:32:02.181 +05:30 [INF] Start
+2025-05-31 12:32:02.244 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:32:02.244 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:32:02.246 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:32:03.226 +05:30 [INF] Extracted Invoice Number: 00449982
+2025-05-31 12:32:03.226 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 12:32:03.226 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 12:32:03.973 +05:30 [INF] CSV Data Found
+2025-05-31 12:32:03.975 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:32:03.976 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:34:25.066 +05:30 [INF] Application starting up
+2025-05-31 12:34:25.799 +05:30 [INF] Start
+2025-05-31 12:34:27.010 +05:30 [INF] Started task: Processing domain: PIL
+2025-05-31 12:34:30.458 +05:30 [INF] Processing domain: PIL
+2025-05-31 12:34:31.245 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:31.496 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 12:34:31.497 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 12:34:31.497 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 12:34:31.660 +05:30 [INF] Application starting up
+2025-05-31 12:34:31.709 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 12:34:31.861 +05:30 [INF] Start
+2025-05-31 12:34:31.928 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:34:31.929 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:31.930 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:34:32.918 +05:30 [INF] Extracted Invoice Number: SUNT-INV-01
+2025-05-31 12:34:32.919 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 12:34:32.919 +05:30 [INF] Extracted Domain Name: PIL
+2025-05-31 12:34:33.670 +05:30 [INF] CSV Data Found
+2025-05-31 12:34:33.725 +05:30 [INF] Invoicedata
+2025-05-31 12:34:33.952 +05:30 [INF] Invoice Line Items
+2025-05-31 12:34:33.959 +05:30 [INF] DocTaxSubTotal
+2025-05-31 12:34:34.462 +05:30 [INF] Finished processing Invoice
+2025-05-31 12:34:34.463 +05:30 [INF] All invoices processed
+2025-05-31 12:34:34.977 +05:30 [INF] Count = 1
+2025-05-31 12:34:34.977 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:34.977 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:34.977 +05:30 [INF] Total time taken in process: 2.0770213 seconds
+2025-05-31 12:34:34.980 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv to C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Processed\INSUN_01_v1_20241030_SUNT-INV-01_Processed.csv
+2025-05-31 12:34:34.983 +05:30 [INF] Total time taken in moving: 0.0024118 seconds
+2025-05-31 12:38:06.563 +05:30 [INF] Application starting up
+2025-05-31 12:38:07.284 +05:30 [INF] Start
+2025-05-31 12:38:08.569 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 12:38:11.576 +05:30 [INF] Processing domain: JPS
+2025-05-31 12:38:31.198 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:38:31.472 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 12:38:31.473 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 12:38:31.473 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 12:38:31.629 +05:30 [INF] Application starting up
+2025-05-31 12:38:31.681 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 12:38:31.820 +05:30 [INF] Start
+2025-05-31 12:38:31.889 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:38:31.889 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:38:31.890 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:38:32.866 +05:30 [INF] Extracted Invoice Number: 00449982
+2025-05-31 12:38:32.866 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 12:38:32.866 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 12:38:33.558 +05:30 [INF] CSV Data Found
+2025-05-31 12:38:33.561 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.561 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.562 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.563 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.564 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:38:33.569 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:38:33.573 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 13:16:17.739 +05:30 [INF] Application starting up
+2025-05-31 13:16:18.453 +05:30 [INF] Start
+2025-05-31 13:16:19.962 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:16:49.638 +05:30 [INF] Application starting up
+2025-05-31 13:16:50.646 +05:30 [INF] Start
+2025-05-31 13:16:52.201 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:16:56.502 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:19:50.348 +05:30 [INF] Application starting up
+2025-05-31 13:19:52.167 +05:30 [INF] Start
+2025-05-31 13:19:53.544 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:20:06.336 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:34:02.675 +05:30 [INF] Application starting up
+2025-05-31 13:34:03.515 +05:30 [INF] Start
+2025-05-31 13:34:04.868 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:34:14.757 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:37:41.169 +05:30 [INF] Application starting up
+2025-05-31 13:37:42.212 +05:30 [INF] Start
+2025-05-31 13:37:43.506 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:38:45.795 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:40:25.087 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 13:40:26.535 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 13:40:26.535 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 13:40:26.536 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 13:40:26.718 +05:30 [INF] Application starting up
+2025-05-31 13:40:26.778 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 13:40:26.917 +05:30 [INF] Start
+2025-05-31 13:40:27.022 +05:30 [INF] Main thread ID: 1
+2025-05-31 13:40:27.048 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 13:40:27.058 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 13:40:28.266 +05:30 [INF] Extracted Invoice Number: WIP
+2025-05-31 13:40:28.266 +05:30 [INF] Extracted Invoice Type: -
+2025-05-31 13:40:28.267 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 13:40:28.962 +05:30 [INF] CSV Data Found
+2025-05-31 13:40:28.965 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 13:40:28.966 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 13:54:05.249 +05:30 [INF] Application starting up
+2025-05-31 13:54:05.483 +05:30 [INF] Start
+2025-05-31 13:54:06.685 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:54:06.698 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:54:08.423 +05:30 [INF] Error processing files in directory C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source: The process cannot access the file because it is being used by another process.
+2025-05-31 13:54:08.480 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP_WIP_WIP.csv
+2025-05-31 13:54:12.011 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 13:54:12.011 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 13:54:12.011 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 13:54:12.011 +05:30 [INF] Application starting up
+2025-05-31 13:54:12.011 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 13:54:12.011 +05:30 [INF] Start
+2025-05-31 13:54:12.011 +05:30 [INF] Main thread ID: 1
+2025-05-31 13:54:12.012 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP_WIP_WIP.csv
+2025-05-31 13:54:12.014 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 13:54:12.015 +05:30 [INF] Extracted Invoice Number: 449982
+2025-05-31 13:54:12.016 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 13:54:12.016 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 13:54:12.017 +05:30 [INF] CSV Data Found
+2025-05-31 13:54:12.017 +05:30 [INF] Invoicedata
+2025-05-31 13:54:12.017 +05:30 [INF] Invoice Line Items
+2025-05-31 13:54:12.018 +05:30 [INF] DocTaxSubTotal
+2025-05-31 13:54:12.018 +05:30 [INF] Method JPSInvLMapping not found in PDFMappingService.
+2025-05-31 13:54:12.019 +05:30 [INF] Method JPSLineMapping not found in PDFMappingService.
+2025-05-31 13:54:12.019 +05:30 [INF] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 13:54:12.019 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 13:54:46.059 +05:30 [INF] Application starting up
+2025-05-31 13:54:47.095 +05:30 [INF] Start
+2025-05-31 13:54:48.552 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:54:51.809 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:55:13.199 +05:30 [INF] Application starting up
+2025-05-31 13:55:14.119 +05:30 [INF] Start
+2025-05-31 13:55:15.382 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:55:19.784 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:55:47.391 +05:30 [INF] Application starting up
+2025-05-31 13:55:47.921 +05:30 [INF] Start
+2025-05-31 13:55:49.100 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:55:53.099 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:57:09.236 +05:30 [INF] Application starting up
+2025-05-31 13:57:10.662 +05:30 [INF] Start
+2025-05-31 13:57:11.888 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 13:57:15.385 +05:30 [INF] Processing domain: JPS
+2025-05-31 13:58:14.758 +05:30 [INF] Application starting up
+2025-05-31 13:58:15.994 +05:30 [INF] Start
+2025-05-31 13:58:17.242 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:32:33.551 +05:30 [INF] Application starting up
+2025-05-31 14:32:34.395 +05:30 [INF] Start
+2025-05-31 14:32:35.737 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:32:39.455 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:38:54.148 +05:30 [INF] Application starting up
+2025-05-31 14:38:55.010 +05:30 [INF] Start
+2025-05-31 14:38:57.305 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:39:00.540 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:40:28.677 +05:30 [INF] Application starting up
+2025-05-31 14:40:29.508 +05:30 [INF] Start
+2025-05-31 14:40:31.422 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:40:33.838 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:40:39.429 +05:30 [INF] Error processing files in directory C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source: The process cannot access the file because it is being used by another process.
+2025-05-31 14:44:34.323 +05:30 [INF] Application starting up
+2025-05-31 14:44:35.192 +05:30 [INF] Start
+2025-05-31 14:44:36.629 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:44:40.303 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:45:00.023 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 14:45:08.845 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 14:45:08.846 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 14:45:08.846 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 14:45:09.012 +05:30 [INF] Application starting up
+2025-05-31 14:45:09.066 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 14:45:09.201 +05:30 [INF] Start
+2025-05-31 14:45:09.266 +05:30 [INF] Main thread ID: 1
+2025-05-31 14:45:09.266 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 14:45:09.268 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 14:45:10.269 +05:30 [INF] Extracted Invoice Number: 449982
+2025-05-31 14:45:10.270 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 14:45:10.270 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 14:45:10.946 +05:30 [INF] CSV Data Found
+2025-05-31 14:45:10.993 +05:30 [INF] Invoicedata
+2025-05-31 14:45:11.170 +05:30 [INF] Invoice Line Items
+2025-05-31 14:45:11.178 +05:30 [INF] DocTaxSubTotal
+2025-05-31 14:45:11.189 +05:30 [INF] Method JPSInvLMapping not found in PDFMappingService.
+2025-05-31 14:45:11.189 +05:30 [INF] Method JPSLineMapping not found in PDFMappingService.
+2025-05-31 14:45:11.389 +05:30 [INF] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:45:11.389 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 14:45:11.389 +05:30 [INF] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:45:16.486 +05:30 [INF] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:45:16.486 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-05-31 14:45:16.486 +05:30 [INF] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:45:21.591 +05:30 [INF] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:45:21.593 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-05-31 14:45:21.593 +05:30 [INF] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:47:30.831 +05:30 [INF] Application starting up
+2025-05-31 14:47:31.054 +05:30 [INF] Start
+2025-05-31 14:47:32.165 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:47:32.178 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:48:18.089 +05:30 [INF] Application starting up
+2025-05-31 14:48:18.322 +05:30 [INF] Start
+2025-05-31 14:48:19.231 +05:30 [INF] Started task: Processing domain: JPS
+2025-05-31 14:48:19.244 +05:30 [INF] Processing domain: JPS
+2025-05-31 14:48:20.974 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 14:48:21.109 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-05-31 14:48:21.109 +05:30 [INF] LogFileName :- filePaths.txt
+2025-05-31 14:48:21.109 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-05-31 14:48:21.259 +05:30 [INF] Application starting up
+2025-05-31 14:48:21.309 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-05-31 14:48:21.440 +05:30 [INF] Start
+2025-05-31 14:48:21.510 +05:30 [INF] Main thread ID: 1
+2025-05-31 14:48:21.511 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 14:48:21.513 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 14:48:22.436 +05:30 [INF] Extracted Invoice Number: 449982
+2025-05-31 14:48:22.436 +05:30 [INF] Extracted Invoice Type: 01
+2025-05-31 14:48:22.436 +05:30 [INF] Extracted Domain Name: JPS
+2025-05-31 14:48:23.102 +05:30 [INF] CSV Data Found
+2025-05-31 14:48:23.141 +05:30 [INF] Invoicedata
+2025-05-31 14:48:23.312 +05:30 [INF] Invoice Line Items
+2025-05-31 14:48:23.320 +05:30 [INF] DocTaxSubTotal
+2025-05-31 14:48:23.331 +05:30 [INF] Method JPSInvLMapping not found in PDFMappingService.
+2025-05-31 14:48:23.331 +05:30 [INF] Method JPSLineMapping not found in PDFMappingService.
+2025-05-31 14:48:23.493 +05:30 [INF] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:48:23.494 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 14:48:23.494 +05:30 [INF] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"

@@ -1,0 +1,266 @@
+2025-06-14 08:51:09.320 +05:30 [INF] Application starting up
+2025-06-14 08:51:09.930 +05:30 [INF] Start
+2025-06-14 08:51:10.810 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 08:51:11.021 +05:30 [INF] Processing domain: JPS
+2025-06-14 08:51:11.124 +05:30 [INF] Error processing domain JPS: Invalid object name 'FileNamePrefix'.
+2025-06-14 08:51:11.125 +05:30 [INF] An error occurred while starting the watcher: Invalid object name 'FileNamePrefix'.
+2025-06-14 08:51:11.135 +05:30 [FTL] Application start-up failed
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'FileNamePrefix'.
+   at ETL.Service.Repo.MSSQL.ETLManagerService.GetPath(String CompanyName) in G:\ETL-Manager\ETLManager.Service\Repo\MSSQL\ETLManagerService.cs:line 77
+   at ETLManager.ETLManagerWatcher.ProcessDomainFiles(String SourcePath, String domainName, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 112
+   at ETLManager.ETLManagerWatcher.<>c__DisplayClass8_1.<<StartAsync>b__0>d.MoveNext() in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 91
+--- End of stack trace from previous location ---
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 95
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+ClientConnectionId:73ba5abf-257d-469c-8a34-dc4472c6507d
+Error Number:208,State:1,Class:16
+2025-06-14 08:51:57.881 +05:30 [INF] Application starting up
+2025-06-14 08:51:59.041 +05:30 [INF] Start
+2025-06-14 08:51:59.907 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 08:52:05.208 +05:30 [INF] Processing domain: JPS
+2025-06-14 08:52:44.384 +05:30 [INF] Application starting up
+2025-06-14 08:52:45.110 +05:30 [INF] Start
+2025-06-14 08:52:45.980 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 08:52:48.335 +05:30 [INF] Processing domain: JPS
+2025-06-14 08:59:56.566 +05:30 [INF] Application starting up
+2025-06-14 08:59:57.231 +05:30 [INF] Start
+2025-06-14 08:59:58.289 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 09:00:08.024 +05:30 [INF] Processing domain: JPS
+2025-06-14 09:00:21.225 +05:30 [INF] Error processing files  System.Collections.Generic.List`1[System.String]: Cannot create a file when that file already exists.
+2025-06-14 09:00:21.258 +05:30 [INF] Error processing domain JPS: Cannot create a file when that file already exists.
+2025-06-14 09:00:21.389 +05:30 [INF] An error occurred while starting the watcher: Cannot create a file when that file already exists.
+2025-06-14 09:00:21.475 +05:30 [FTL] Application start-up failed
+System.IO.IOException: Cannot create a file when that file already exists.
+   at System.IO.FileSystem.MoveFile(String sourceFullPath, String destFullPath, Boolean overwrite)
+   at System.IO.File.Move(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at ETLManager.ETLManagerWatcher.RetriveCsv(List`1 ResivefilePaths, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 206
+   at ETLManager.ETLManagerWatcher.ProcessDomainFiles(String SourcePath, String domainName, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 173
+   at ETLManager.ETLManagerWatcher.<>c__DisplayClass8_1.<<StartAsync>b__0>d.MoveNext() in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 91
+--- End of stack trace from previous location ---
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 95
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-06-14 09:03:17.849 +05:30 [INF] Application starting up
+2025-06-14 09:03:18.083 +05:30 [INF] Start
+2025-06-14 09:03:18.854 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 09:03:18.869 +05:30 [INF] Processing domain: JPS
+2025-06-14 09:03:19.504 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:19.792 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 09:03:19.792 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 09:03:19.792 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 09:03:19.943 +05:30 [INF] Application starting up
+2025-06-14 09:03:19.993 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 09:03:20.216 +05:30 [INF] Start
+2025-06-14 09:03:20.287 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:03:20.287 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:20.289 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:03:21.400 +05:30 [INF] Extracted Invoice Number: S2504244WQM0JPP
+2025-06-14 09:03:21.400 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 09:03:21.400 +05:30 [INF] Extracted Domain Name: JPS
+2025-06-14 09:03:22.580 +05:30 [INF] CSV Data Found
+2025-06-14 09:03:22.581 +05:30 [INF] Invoicenumber :-01
+2025-06-14 09:03:22.581 +05:30 [INF] Invoice Number Not Match
+2025-06-14 09:03:22.595 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:22.595 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:22.595 +05:30 [INF] Total time taken in process: 1.1961239 seconds
+2025-06-14 09:03:22.597 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv to C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Processed\JPS_01_v1_20250530_S2504244WQM0JPP_Processed.csv
+2025-06-14 09:03:22.597 +05:30 [INF] Total time taken in moving: 0.0018687 seconds
+2025-06-14 09:04:45.512 +05:30 [INF] Application starting up
+2025-06-14 09:04:45.738 +05:30 [INF] Start
+2025-06-14 09:04:46.489 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 09:04:46.502 +05:30 [INF] Processing domain: JPS
+2025-06-14 09:04:47.107 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:04:47.297 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 09:04:47.297 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 09:04:47.298 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 09:04:47.453 +05:30 [INF] Application starting up
+2025-06-14 09:04:47.502 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 09:04:47.642 +05:30 [INF] Start
+2025-06-14 09:04:47.748 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:04:47.748 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:04:47.750 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:04:48.535 +05:30 [INF] Extracted Invoice Number: S2504244WQM0JPP
+2025-06-14 09:04:48.536 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 09:04:48.536 +05:30 [INF] Extracted Domain Name: JPS
+2025-06-14 09:04:49.151 +05:30 [INF] CSV Data Found
+2025-06-14 09:04:49.151 +05:30 [INF] Invoicenumber :-01
+2025-06-14 09:04:49.151 +05:30 [INF] Invoice Number Not Match
+2025-06-14 09:04:49.165 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:04:49.165 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:04:49.166 +05:30 [INF] Total time taken in process: 0.6307024 seconds
+2025-06-14 09:04:49.167 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv to C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Processed\JPS_01_v1_20250530_S2504244WQM0JPP_Processed.csv
+2025-06-14 09:04:49.168 +05:30 [INF] Total time taken in moving: 0.0018488 seconds
+2025-06-14 11:29:36.996 +05:30 [INF] Application starting up
+2025-06-14 11:29:37.757 +05:30 [INF] Start
+2025-06-14 11:29:38.806 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-14 11:30:21.028 +05:30 [INF] Processing domain: Silva
+2025-06-14 11:30:32.614 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:32.929 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 11:30:32.929 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 11:30:32.929 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 11:30:33.114 +05:30 [INF] Application starting up
+2025-06-14 11:30:33.173 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 11:30:33.326 +05:30 [INF] Start
+2025-06-14 11:30:33.394 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:30:33.394 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:33.396 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-14 11:30:34.760 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-14 11:30:34.760 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 11:30:34.760 +05:30 [INF] Extracted Domain Name: Silva
+2025-06-14 11:30:35.698 +05:30 [INF] CSV Data Found
+2025-06-14 11:30:35.743 +05:30 [INF] Invoicedata
+2025-06-14 11:30:35.925 +05:30 [INF] Invoice Line Items
+2025-06-14 11:30:35.935 +05:30 [INF] DocTaxSubTotal
+2025-06-14 11:30:35.946 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-14 11:30:35.947 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-14 11:30:38.492 +05:30 [INF] Finished processing Invoice
+2025-06-14 11:30:38.493 +05:30 [INF] All invoices processed
+2025-06-14 11:30:45.118 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:45.121 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:45.121 +05:30 [INF] Total time taken in process: 10.3600961 seconds
+2025-06-14 11:30:45.122 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-14 11:30:45.122 +05:30 [INF] Total time taken in moving: 0.0022796 seconds
+2025-06-14 11:32:15.489 +05:30 [INF] Application starting up
+2025-06-14 11:32:15.720 +05:30 [INF] Start
+2025-06-14 11:32:16.551 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-14 11:32:16.564 +05:30 [INF] Processing domain: Silva
+2025-06-14 11:32:17.237 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:32:17.427 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 11:32:17.427 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 11:32:17.427 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 11:32:17.585 +05:30 [INF] Application starting up
+2025-06-14 11:32:17.659 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 11:32:17.814 +05:30 [INF] Start
+2025-06-14 11:32:17.889 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:32:17.889 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:32:17.891 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-14 11:32:18.701 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-14 11:32:18.701 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 11:32:18.701 +05:30 [INF] Extracted Domain Name: Silva
+2025-06-14 11:32:19.424 +05:30 [INF] CSV Data Found
+2025-06-14 11:32:19.468 +05:30 [INF] Invoicedata
+2025-06-14 11:32:19.640 +05:30 [INF] Invoice Line Items
+2025-06-14 11:32:19.648 +05:30 [INF] DocTaxSubTotal
+2025-06-14 11:32:19.659 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-14 11:32:19.659 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-14 11:32:21.222 +05:30 [INF] Finished processing Invoice
+2025-06-14 11:32:21.223 +05:30 [INF] All invoices processed
+2025-06-14 11:32:22.812 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:32:22.812 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:32:22.813 +05:30 [INF] Total time taken in process: 4.112029 seconds
+2025-06-14 11:32:22.815 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-14 11:32:22.815 +05:30 [INF] Total time taken in moving: 0.0019293 seconds
+2025-06-14 11:34:38.587 +05:30 [INF] Application starting up
+2025-06-14 11:34:38.826 +05:30 [INF] Start
+2025-06-14 11:34:39.529 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-14 11:34:39.542 +05:30 [INF] Processing domain: JPS
+2025-06-14 11:34:40.120 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:40.310 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 11:34:40.311 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 11:34:40.311 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 11:34:40.469 +05:30 [INF] Application starting up
+2025-06-14 11:34:40.518 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 11:34:40.649 +05:30 [INF] Start
+2025-06-14 11:34:40.711 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:34:40.711 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:40.713 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:34:41.469 +05:30 [INF] Extracted Invoice Number: S2504244WQM0JPP
+2025-06-14 11:34:41.469 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 11:34:41.469 +05:30 [INF] Extracted Domain Name: JPS
+2025-06-14 11:34:42.178 +05:30 [INF] CSV Data Found
+2025-06-14 11:34:42.220 +05:30 [INF] Invoicedata
+2025-06-14 11:34:42.397 +05:30 [INF] Invoice Line Items
+2025-06-14 11:34:42.404 +05:30 [INF] DocTaxSubTotal
+2025-06-14 11:34:42.415 +05:30 [INF] Method JPSInvLMapping not found in PDFMappingService.
+2025-06-14 11:34:42.415 +05:30 [INF] Method JPSLineMapping not found in PDFMappingService.
+2025-06-14 11:34:43.249 +05:30 [INF] Finished processing Invoice
+2025-06-14 11:34:43.249 +05:30 [INF] All invoices processed
+2025-06-14 11:34:43.711 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:43.711 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:43.713 +05:30 [INF] Total time taken in process: 2.2436822 seconds
+2025-06-14 11:34:43.714 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv to C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Processed\JPS_01_v1_20250530_S2504244WQM0JPP_Processed.csv
+2025-06-14 11:34:43.715 +05:30 [INF] Total time taken in moving: 0.0021159 seconds
+2025-06-14 12:18:31.447 +05:30 [INF] Application starting up
+2025-06-14 12:18:31.682 +05:30 [INF] Start
+2025-06-14 12:18:32.472 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:18:32.486 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:18:32.659 +05:30 [INF] Error processing domain McGrawHill: Invalid object name 'FileNamePrefix'.
+2025-06-14 12:18:32.659 +05:30 [INF] An error occurred while starting the watcher: Invalid object name 'FileNamePrefix'.
+2025-06-14 12:18:32.668 +05:30 [FTL] Application start-up failed
+System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'FileNamePrefix'.
+   at ETL.Service.Repo.MSSQL.ETLManagerService.GetPath(String CompanyName) in G:\ETL-Manager\ETLManager.Service\Repo\MSSQL\ETLManagerService.cs:line 77
+   at ETLManager.ETLManagerWatcher.ProcessDomainFiles(String SourcePath, String domainName, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 112
+   at ETLManager.ETLManagerWatcher.<>c__DisplayClass8_1.<<StartAsync>b__0>d.MoveNext() in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 91
+--- End of stack trace from previous location ---
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 95
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+ClientConnectionId:adf5043a-9569-4f6a-b214-d64c9bccac90
+Error Number:208,State:1,Class:16
+2025-06-14 12:19:20.431 +05:30 [INF] Application starting up
+2025-06-14 12:19:21.663 +05:30 [INF] Start
+2025-06-14 12:19:22.809 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:19:35.747 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:20:23.070 +05:30 [INF] Application starting up
+2025-06-14 12:20:23.313 +05:30 [INF] Start
+2025-06-14 12:20:23.629 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:20:23.642 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:21:16.843 +05:30 [INF] Application starting up
+2025-06-14 12:21:18.013 +05:30 [INF] Start
+2025-06-14 12:21:18.514 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:21:21.462 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:21:26.685 +05:30 [INF] Application starting up
+2025-06-14 12:21:26.916 +05:30 [INF] Start
+2025-06-14 12:21:27.181 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:21:27.195 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:22:24.740 +05:30 [INF] Application starting up
+2025-06-14 12:22:25.830 +05:30 [INF] Start
+2025-06-14 12:22:26.343 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:22:29.640 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:23:37.951 +05:30 [INF] Application starting up
+2025-06-14 12:23:38.179 +05:30 [INF] Start
+2025-06-14 12:23:38.450 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:23:38.463 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:25:24.822 +05:30 [INF] Application starting up
+2025-06-14 12:25:25.052 +05:30 [INF] Start
+2025-06-14 12:25:25.352 +05:30 [INF] Started task: Processing domain: McGrawHill
+2025-06-14 12:25:25.366 +05:30 [INF] Processing domain: McGrawHill
+2025-06-14 12:25:25.461 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:26.050 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-14 12:25:26.051 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-14 12:25:26.051 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-14 12:25:26.201 +05:30 [INF] Application starting up
+2025-06-14 12:25:26.251 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-14 12:25:26.384 +05:30 [INF] Start
+2025-06-14 12:25:26.445 +05:30 [INF] Main thread ID: 1
+2025-06-14 12:25:26.445 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:26.447 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 12:25:26.764 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-14 12:25:26.765 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-14 12:25:26.765 +05:30 [INF] Extracted Domain Name: McGrawHill
+2025-06-14 12:25:27.041 +05:30 [INF] CSV Data Found
+2025-06-14 12:25:27.088 +05:30 [INF] Invoicedata
+2025-06-14 12:25:27.268 +05:30 [INF] Invoice Line Items
+2025-06-14 12:25:27.275 +05:30 [INF] DocTaxSubTotal
+2025-06-14 12:25:27.286 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-14 12:25:27.286 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-14 12:25:27.401 +05:30 [INF] Finished processing Invoice
+2025-06-14 12:25:27.402 +05:30 [INF] All invoices processed
+2025-06-14 12:25:27.505 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:27.505 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:27.506 +05:30 [INF] Total time taken in process: 0.7414181 seconds
+2025-06-14 12:25:27.507 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-14 12:25:27.508 +05:30 [INF] Total time taken in moving: 0.0019998 seconds
+2025-06-14 13:18:11.435 +05:30 [INF] Application starting up
+2025-06-14 13:18:56.394 +05:30 [INF] Application starting up

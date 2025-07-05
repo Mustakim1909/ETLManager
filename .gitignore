@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs/ETLManager/FileContentIndex
+/ETLManager.Service/obj/Debug/net6.0
+/ETLManager/obj/Debug/net6.0

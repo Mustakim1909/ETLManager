@@ -1,0 +1,30 @@
+2025-06-18 13:12:33.702 +05:30 [INF] Application starting up
+2025-06-18 13:12:34.217 +05:30 [INF] Start
+2025-06-18 13:12:34.997 +05:30 [INF] Started task: Processing domain: Allied_Sirva
+2025-06-18 13:12:35.063 +05:30 [INF] Processing domain: Allied_Sirva
+2025-06-18 13:12:35.603 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:36.807 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-18 13:12:36.807 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-18 13:12:36.808 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-18 13:12:36.958 +05:30 [INF] Application starting up
+2025-06-18 13:12:37.034 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-18 13:12:37.196 +05:30 [INF] Start
+2025-06-18 13:12:37.259 +05:30 [INF] Main thread ID: 1
+2025-06-18 13:12:37.259 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:37.261 +05:30 [INF] Processing files for domain: Allied_Sirva, invoiceType: SLV
+2025-06-18 13:12:38.176 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-18 13:12:38.176 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-18 13:12:38.176 +05:30 [INF] Extracted Domain Name: Allied_Sirva
+2025-06-18 13:12:38.884 +05:30 [INF] CSV Data Found
+2025-06-18 13:12:38.930 +05:30 [INF] Invoicedata
+2025-06-18 13:12:39.119 +05:30 [INF] Invoice Line Items
+2025-06-18 13:12:39.127 +05:30 [INF] DocTaxSubTotal
+2025-06-18 13:12:39.137 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-18 13:12:39.137 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-18 13:12:39.753 +05:30 [INF] Finished processing Invoice
+2025-06-18 13:12:39.754 +05:30 [INF] All invoices processed
+2025-06-18 13:12:40.459 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:40.459 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:40.460 +05:30 [INF] Total time taken in process: 2.2840764 seconds
+2025-06-18 13:12:40.462 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-18 13:12:40.462 +05:30 [INF] Total time taken in moving: 0.0021412 seconds

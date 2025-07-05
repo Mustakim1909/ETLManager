@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\BackOffice\\ETLManager\\",
+  "WorkspaceRootPath": "D:\\ETLManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|c:\\backoffice\\etlmanager\\etlmanager\\etlmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|solutionrelative:etlmanager\\etlmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|c:\\backoffice\\etlmanager\\etlmanager.service\\etlmanager.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\etlmanager.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|c:\\backoffice\\etlmanager\\etlmanager\\etlmanagerwatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|d:\\etlmanager\\etlmanager\\etlmanagerwatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|solutionrelative:etlmanager\\etlmanagerwatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|c:\\backoffice\\etlmanager\\etlmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|d:\\etlmanager\\etlmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|solutionrelative:etlmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|c:\\backoffice\\etlmanager\\etlmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\repo\\mssql\\etlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\repo\\mssql\\etlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\model\\watcherconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\model\\watcherconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\model\\filenameprefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\model\\filenameprefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|d:\\etlmanager\\etlmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DE2C806-0352-4331-B785-E4DCD24FD140}|ETLManager\\ETLManager.csproj|solutionrelative:etlmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\model\\etlappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\model\\etlappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\repo\\postgresql\\etlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\repo\\postgresql\\etlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\repo\\interface\\ietlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\repo\\interface\\ietlmanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|d:\\etlmanager\\etlmanager.service\\model\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A77F46-B85A-4C95-88C8-2F1397D47219}|ETLManager.Service\\ETLManager.Service.csproj|solutionrelative:etlmanager.service\\model\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +54,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WatcherConfig.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Model\\WatcherConfig.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Model\\WatcherConfig.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Model\\WatcherConfig.cs",
+              "RelativeToolTip": "ETLManager.Service\\Model\\WatcherConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:03:33.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileNamePrefix.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Model\\FileNamePrefix.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Model\\FileNamePrefix.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Model\\FileNamePrefix.cs",
+              "RelativeToolTip": "ETLManager.Service\\Model\\FileNamePrefix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:02:22.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Appsettings.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Model\\Appsettings.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Model\\Appsettings.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Model\\Appsettings.cs",
+              "RelativeToolTip": "ETLManager.Service\\Model\\Appsettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:02:14.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ETLManagerService.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Repo\\MSSQL\\ETLManagerService.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Repo\\MSSQL\\ETLManagerService.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Repo\\MSSQL\\ETLManagerService.cs",
+              "RelativeToolTip": "ETLManager.Service\\Repo\\MSSQL\\ETLManagerService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAawEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T08:17:22.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ETLAppSettings.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Model\\ETLAppSettings.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Model\\ETLAppSettings.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Model\\ETLAppSettings.cs",
+              "RelativeToolTip": "ETLManager.Service\\Model\\ETLAppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:49:01.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ETLServiceFactory.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "RelativeToolTip": "ETLManager.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:46:36.007Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ETLManager.Service.csproj",
-              "DocumentMoniker": "C:\\BackOffice\\ETLManager\\ETLManager.Service\\ETLManager.Service.csproj",
-              "RelativeDocumentMoniker": "ETLManager.Service\\ETLManager.Service.csproj",
-              "ToolTip": "C:\\BackOffice\\ETLManager\\ETLManager.Service\\ETLManager.Service.csproj",
-              "RelativeToolTip": "ETLManager.Service\\ETLManager.Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-18T05:52:58.07Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager\\appsettings.json",
+              "RelativeDocumentMoniker": "ETLManager\\appsettings.json",
+              "ToolTip": "D:\\ETLManager\\ETLManager\\appsettings.json",
+              "RelativeToolTip": "ETLManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-08T03:31:31.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ETLManager.csproj",
-              "DocumentMoniker": "C:\\BackOffice\\ETLManager\\ETLManager\\ETLManager.csproj",
-              "RelativeDocumentMoniker": "ETLManager\\ETLManager.csproj",
-              "ToolTip": "C:\\BackOffice\\ETLManager\\ETLManager\\ETLManager.csproj",
-              "RelativeToolTip": "ETLManager\\ETLManager.csproj",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T03:46:17.545Z",
+              "Title": "ETLManagerWatcher.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager\\ETLManagerWatcher.cs",
+              "RelativeDocumentMoniker": "ETLManager\\ETLManagerWatcher.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager\\ETLManagerWatcher.cs",
+              "RelativeToolTip": "ETLManager\\ETLManagerWatcher.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAjwFwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T02:47:42.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\BackOffice\\ETLManager\\ETLManager\\appsettings.json",
-              "RelativeDocumentMoniker": "ETLManager\\appsettings.json",
-              "ToolTip": "C:\\BackOffice\\ETLManager\\ETLManager\\appsettings.json",
-              "RelativeToolTip": "ETLManager\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-08T03:31:31.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ETLManagerWatcher.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETLManager\\ETLManager\\ETLManagerWatcher.cs",
-              "RelativeDocumentMoniker": "ETLManager\\ETLManagerWatcher.cs",
-              "ToolTip": "C:\\BackOffice\\ETLManager\\ETLManager\\ETLManagerWatcher.cs",
-              "RelativeToolTip": "ETLManager\\ETLManagerWatcher.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAD4v2gAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T02:47:42.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETLManager\\ETLManager\\Program.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager\\Program.cs",
               "RelativeDocumentMoniker": "ETLManager\\Program.cs",
-              "ToolTip": "C:\\BackOffice\\ETLManager\\ETLManager\\Program.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager\\Program.cs",
               "RelativeToolTip": "ETLManager\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwG4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T02:47:24.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ETLManagerService.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Repo\\PostgreSql\\ETLManagerService.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Repo\\PostgreSql\\ETLManagerService.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Repo\\PostgreSql\\ETLManagerService.cs",
+              "RelativeToolTip": "ETLManager.Service\\Repo\\PostgreSql\\ETLManagerService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:19:57.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IETLManagerService.cs",
+              "DocumentMoniker": "D:\\ETLManager\\ETLManager.Service\\Repo\\Interface\\IETLManagerService.cs",
+              "RelativeDocumentMoniker": "ETLManager.Service\\Repo\\Interface\\IETLManagerService.cs",
+              "ToolTip": "D:\\ETLManager\\ETLManager.Service\\Repo\\Interface\\IETLManagerService.cs",
+              "RelativeToolTip": "ETLManager.Service\\Repo\\Interface\\IETLManagerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T11:20:24.973Z"
             }
           ]
         }

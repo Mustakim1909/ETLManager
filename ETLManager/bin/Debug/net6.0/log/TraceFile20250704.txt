@@ -1,0 +1,264 @@
+2025-07-04 09:50:21.494 +05:30 [INF] Application starting up
+2025-07-04 09:50:23.288 +05:30 [INF] Start
+2025-07-04 09:50:24.927 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 09:58:12.119 +05:30 [INF] Application starting up
+2025-07-04 09:58:12.275 +05:30 [INF] Start
+2025-07-04 09:58:13.371 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 09:58:13.882 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 09:58:14.596 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-04 09:58:14.707 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 09:58:14.707 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 09:58:14.707 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 09:58:14.804 +05:30 [INF] Application starting up
+2025-07-04 09:58:14.834 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 09:58:14.921 +05:30 [INF] Start
+2025-07-04 09:58:14.961 +05:30 [INF] Main thread ID: 1
+2025-07-04 09:58:14.961 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-04 09:58:14.962 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 09:58:16.753 +05:30 [INF] Extracted Invoice Number: CN00001
+2025-07-04 09:58:16.754 +05:30 [INF] Extracted Invoice Type: 02
+2025-07-04 09:58:16.754 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 09:58:17.647 +05:30 [INF] CSV Data Found
+2025-07-04 09:58:17.671 +05:30 [INF] Invoicedata
+2025-07-04 09:58:17.783 +05:30 [INF] Invoice Line Items
+2025-07-04 09:58:17.787 +05:30 [INF] DocTaxSubTotal
+2025-07-04 09:58:17.794 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 09:58:17.794 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 09:58:17.994 +05:30 [INF] Finished processing Invoice
+2025-07-04 09:58:17.994 +05:30 [INF] All invoices processed
+2025-07-04 09:58:18.205 +05:30 [INF] Count = 1
+2025-07-04 09:58:18.205 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-04 09:58:18.207 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-04 09:58:18.208 +05:30 [INF] Total time taken in process: 1.4594892 seconds
+2025-07-04 09:58:18.208 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_02_V1_01312025_CN00001_Processed.csv
+2025-07-04 09:58:18.209 +05:30 [INF] Total time taken in moving: 0.0030466 seconds
+2025-07-04 10:08:55.893 +05:30 [INF] Application starting up
+2025-07-04 10:08:56.047 +05:30 [INF] Start
+2025-07-04 10:08:56.934 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 10:08:56.942 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 10:08:57.722 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:08:57.825 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 10:08:57.825 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 10:08:57.825 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 10:08:57.925 +05:30 [INF] Application starting up
+2025-07-04 10:08:57.955 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 10:08:58.044 +05:30 [INF] Start
+2025-07-04 10:08:58.084 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:08:58.084 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:08:58.085 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:08:58.942 +05:30 [INF] Extracted Invoice Number: 2345092518
+2025-07-04 10:08:58.942 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 10:08:58.942 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 10:08:59.622 +05:30 [INF] Not found csv data please check.
+2025-07-04 10:15:43.431 +05:30 [INF] Application starting up
+2025-07-04 10:15:43.591 +05:30 [INF] Start
+2025-07-04 10:15:44.517 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 10:15:44.526 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 10:15:45.351 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:45.454 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 10:15:45.454 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 10:15:45.454 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 10:15:45.554 +05:30 [INF] Application starting up
+2025-07-04 10:15:45.585 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 10:15:45.674 +05:30 [INF] Start
+2025-07-04 10:15:45.717 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:15:45.717 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:45.718 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:15:46.891 +05:30 [INF] Extracted Invoice Number: INV1
+2025-07-04 10:15:46.891 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 10:15:46.891 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 10:15:47.645 +05:30 [INF] CSV Data Found
+2025-07-04 10:15:47.669 +05:30 [INF] Invoicedata
+2025-07-04 10:15:47.782 +05:30 [INF] Invoice Line Items
+2025-07-04 10:15:47.787 +05:30 [INF] DocTaxSubTotal
+2025-07-04 10:15:47.794 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 10:15:47.795 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 10:15:48.087 +05:30 [INF] Finished processing Invoice
+2025-07-04 10:15:48.087 +05:30 [INF] All invoices processed
+2025-07-04 10:15:48.521 +05:30 [INF] Count = 1
+2025-07-04 10:15:48.521 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:48.522 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:48.522 +05:30 [INF] Total time taken in process: 1.6310576 seconds
+2025-07-04 10:15:48.522 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_01_V1_6102025_INV1_Processed.csv
+2025-07-04 10:15:48.523 +05:30 [INF] Total time taken in moving: 0.0011318 seconds
+2025-07-04 10:50:52.141 +05:30 [INF] Application starting up
+2025-07-04 10:50:52.299 +05:30 [INF] Start
+2025-07-04 10:50:53.191 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 10:50:53.200 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 10:50:53.819 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 10:50:53.924 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 10:50:53.924 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 10:50:53.924 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 10:50:56.394 +05:30 [INF] Application starting up
+2025-07-04 10:50:56.427 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 10:50:56.517 +05:30 [INF] Start
+2025-07-04 10:50:56.559 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:50:56.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 10:50:56.560 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:50:57.439 +05:30 [INF] Extracted Invoice Number: INV01
+2025-07-04 10:50:57.439 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 10:50:57.440 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 10:50:58.207 +05:30 [INF] CSV Data Found
+2025-07-04 10:50:58.231 +05:30 [INF] Invoicedata
+2025-07-04 10:50:58.347 +05:30 [INF] Invoice Line Items
+2025-07-04 10:50:58.352 +05:30 [INF] DocTaxSubTotal
+2025-07-04 10:50:58.358 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 10:50:58.359 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 10:50:58.538 +05:30 [INF] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:50:58.539 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-04 10:50:58.539 +05:30 [INF] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:03.655 +05:30 [INF] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:03.655 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-04 10:51:03.656 +05:30 [INF] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:05.074 +05:30 [INF] Application starting up
+2025-07-04 10:53:05.229 +05:30 [INF] Start
+2025-07-04 10:53:06.115 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 10:53:06.124 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 15:24:35.340 +05:30 [INF] Application starting up
+2025-07-04 15:24:37.119 +05:30 [INF] Start
+2025-07-04 15:24:38.327 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 15:24:41.989 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 15:24:44.504 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV02_WIP.csv
+2025-07-04 15:24:44.676 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 15:24:44.676 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 15:24:44.676 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 15:24:44.784 +05:30 [INF] Application starting up
+2025-07-04 15:24:44.817 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 15:24:44.908 +05:30 [INF] Start
+2025-07-04 15:24:44.909 +05:30 [INF] Command Arguments : C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 15:24:44.909 +05:30 [INF] Filepathjson : ["C:\\BackOffice\\ETL_Replacement\\DemoDB\\Advintek\\Input\\Source\\Temp_Process\\Advintek_01_V1_6102025_INV02_WIP.csv" ]
+2025-07-04 15:24:44.952 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:24:44.952 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV02_WIP.csv
+2025-07-04 15:24:44.953 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:24:46.081 +05:30 [INF] Extracted Invoice Number: INV02
+2025-07-04 15:24:46.081 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 15:24:46.081 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 17:55:55.327 +05:30 [INF] Application starting up
+2025-07-04 17:55:56.810 +05:30 [INF] Start
+2025-07-04 17:55:57.834 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 17:55:58.349 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 17:55:59.054 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV234_WIP.csv
+2025-07-04 17:55:59.156 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 17:55:59.156 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 17:55:59.156 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 17:55:59.253 +05:30 [INF] Application starting up
+2025-07-04 17:55:59.284 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 17:55:59.372 +05:30 [INF] Start
+2025-07-04 17:55:59.373 +05:30 [INF] Command Arguments : C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 17:55:59.373 +05:30 [INF] Filepathjson : ["C:\\BackOffice\\ETL_Replacement\\DemoDB\\Advintek\\Input\\Source\\Temp_Process\\Advintek_01_V1_6102025_INV234_WIP.csv" ]
+2025-07-04 17:55:59.413 +05:30 [INF] Main thread ID: 1
+2025-07-04 17:55:59.413 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV234_WIP.csv
+2025-07-04 17:55:59.414 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 17:56:00.375 +05:30 [INF] Extracted Invoice Number: INV234
+2025-07-04 17:56:00.375 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 17:56:00.375 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 17:56:01.065 +05:30 [INF] Not found csv data please check.
+2025-07-04 18:01:55.538 +05:30 [INF] Application starting up
+2025-07-04 18:01:55.778 +05:30 [INF] Start
+2025-07-04 18:01:59.906 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 18:01:59.915 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 18:02:00.527 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV235_WIP.csv
+2025-07-04 18:02:00.637 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 18:02:00.638 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 18:02:00.638 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 18:02:00.736 +05:30 [INF] Application starting up
+2025-07-04 18:02:00.766 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 18:02:00.856 +05:30 [INF] Start
+2025-07-04 18:02:00.857 +05:30 [INF] Command Arguments : C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 18:02:00.857 +05:30 [INF] Filepathjson : ["C:\\BackOffice\\ETL_Replacement\\DemoDB\\Advintek\\Input\\Source\\Temp_Process\\Advintek_01_V1_6102025_INV235_WIP.csv" ]
+2025-07-04 18:02:00.898 +05:30 [INF] Main thread ID: 1
+2025-07-04 18:02:00.898 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV235_WIP.csv
+2025-07-04 18:02:00.899 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 18:02:01.788 +05:30 [INF] Extracted Invoice Number: INV235
+2025-07-04 18:02:01.788 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 18:02:01.789 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 18:02:02.452 +05:30 [INF] CSV Data Found
+2025-07-04 18:02:02.476 +05:30 [INF] Invoicedata
+2025-07-04 18:02:02.593 +05:30 [INF] Invoice Line Items
+2025-07-04 18:02:02.598 +05:30 [INF] DocTaxSubTotal
+2025-07-04 18:02:02.605 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 18:02:02.605 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 18:02:02.793 +05:30 [INF] Finished processing Invoice
+2025-07-04 18:02:02.794 +05:30 [INF] All invoices processed
+2025-07-04 18:02:03.064 +05:30 [INF] Count = 1
+2025-07-04 18:02:03.065 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV235_WIP.csv
+2025-07-04 18:02:03.065 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_INV235_WIP.csv
+2025-07-04 18:02:03.065 +05:30 [INF] Total time taken in process: 1.2761448 seconds
+2025-07-04 18:02:03.066 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV235_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_01_V1_6102025_INV235_Processed.csv
+2025-07-04 18:02:03.066 +05:30 [INF] Total time taken in moving: 0.0012221 seconds
+2025-07-04 18:39:10.095 +05:30 [INF] Application starting up
+2025-07-04 18:39:10.253 +05:30 [INF] Start
+2025-07-04 18:39:21.010 +05:30 [INF] Application starting up
+2025-07-04 18:39:21.164 +05:30 [INF] Start
+2025-07-04 18:39:27.170 +05:30 [INF] Application starting up
+2025-07-04 18:39:27.324 +05:30 [INF] Start
+2025-07-04 18:39:49.504 +05:30 [INF] Application starting up
+2025-07-04 18:39:49.658 +05:30 [INF] Start
+2025-07-04 18:39:51.133 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 18:39:51.143 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 18:39:52.010 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00005_WIP.csv
+2025-07-04 18:39:52.118 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 18:39:52.118 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 18:39:52.118 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 18:39:52.217 +05:30 [INF] Application starting up
+2025-07-04 18:39:52.246 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 18:39:52.335 +05:30 [INF] Start
+2025-07-04 18:39:52.335 +05:30 [INF] Command Arguments : C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 18:39:52.336 +05:30 [INF] Filepathjson : ["C:\\BackOffice\\ETL_Replacement\\DemoDB\\Advintek\\Input\\Source\\Temp_Process\\Advintek_01_V1_01312025_INV00005_WIP.csv" ]
+2025-07-04 18:39:52.376 +05:30 [INF] Main thread ID: 1
+2025-07-04 18:39:52.376 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00005_WIP.csv
+2025-07-04 18:39:52.377 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 18:39:53.334 +05:30 [INF] Extracted Invoice Number: INV00005
+2025-07-04 18:39:53.334 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 18:39:53.334 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 18:39:54.542 +05:30 [INF] CSV Data Found
+2025-07-04 18:39:54.566 +05:30 [INF] Invoicedata
+2025-07-04 18:39:54.681 +05:30 [INF] Invoice Line Items
+2025-07-04 18:39:54.686 +05:30 [INF] DocTaxSubTotal
+2025-07-04 18:39:54.692 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 18:39:54.693 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 18:39:55.217 +05:30 [INF] Finished processing Invoice
+2025-07-04 18:39:55.220 +05:30 [INF] All invoices processed
+2025-07-04 18:39:55.663 +05:30 [INF] Count = 1
+2025-07-04 18:39:55.667 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00005_WIP.csv
+2025-07-04 18:39:55.668 +05:30 [INF] Process file name :- Advintek_01_V1_01312025_INV00005_WIP.csv
+2025-07-04 18:39:55.670 +05:30 [INF] Total time taken in process: 2.3303789 seconds
+2025-07-04 18:39:55.671 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00005_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_01_V1_01312025_INV00005_Processed.csv
+2025-07-04 18:39:55.671 +05:30 [INF] Total time taken in moving: 0.0048204 seconds
+2025-07-04 21:01:18.480 +05:30 [INF] Application starting up
+2025-07-04 21:01:19.153 +05:30 [INF] Start
+2025-07-04 21:01:20.230 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 21:01:23.386 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 21:01:40.037 +05:30 [INF] Application starting up
+2025-07-04 21:01:40.530 +05:30 [INF] Start
+2025-07-04 21:01:41.662 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-04 21:01:42.846 +05:30 [INF] Processing domain: DemoDB
+2025-07-04 21:01:44.479 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:01:44.642 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-04 21:01:44.642 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-04 21:01:44.642 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-04 21:01:44.743 +05:30 [INF] Application starting up
+2025-07-04 21:01:44.774 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 21:01:44.863 +05:30 [INF] Start
+2025-07-04 21:01:44.864 +05:30 [INF] Command Arguments : C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-04 21:01:44.864 +05:30 [INF] Filepathjson : ["C:\\BackOffice\\ETL_Replacement\\DemoDB\\Advintek\\Input\\Source\\Temp_Process\\Advintek_01_V1_6102025_2345092518_WIP.csv" ]
+2025-07-04 21:01:44.907 +05:30 [INF] Main thread ID: 1
+2025-07-04 21:01:44.907 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:01:44.909 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 21:01:45.840 +05:30 [INF] Extracted Invoice Number: 2345092518
+2025-07-04 21:01:45.840 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-04 21:01:45.840 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-04 21:01:46.633 +05:30 [INF] CSV Data Found
+2025-07-04 21:01:46.658 +05:30 [INF] Invoicedata
+2025-07-04 21:01:46.779 +05:30 [INF] Invoice Line Items
+2025-07-04 21:01:46.784 +05:30 [INF] DocTaxSubTotal
+2025-07-04 21:01:46.791 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-04 21:01:46.792 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-04 21:01:47.016 +05:30 [INF] Finished processing Invoice
+2025-07-04 21:01:47.021 +05:30 [INF] All invoices processed
+2025-07-04 21:01:47.119 +05:30 [INF] Count = 1
+2025-07-04 21:01:47.122 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:01:47.126 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:01:47.126 +05:30 [INF] Total time taken in process: 1.2912812 seconds
+2025-07-04 21:01:47.131 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_01_V1_6102025_2345092518_Processed.csv
+2025-07-04 21:01:47.133 +05:30 [INF] Total time taken in moving: 0.0049744 seconds

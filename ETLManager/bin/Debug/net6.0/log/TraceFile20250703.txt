@@ -1,0 +1,357 @@
+2025-07-03 15:53:42.073 +05:30 [INF] Application starting up
+2025-07-03 15:53:58.405 +05:30 [FTL] Application start-up failed
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 95
+   at ETLManager.Program.<>c__DisplayClass2_0.<CreateHostBuilder>b__1(IServiceProvider x) in D:\ETLManager\ETLManager\Program.cs:line 111
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:54:11.577 +05:30 [INF] Application starting up
+2025-07-03 15:54:34.701 +05:30 [FTL] Application start-up failed
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 95
+   at ETLManager.Program.<>c__DisplayClass2_0.<CreateHostBuilder>b__1(IServiceProvider x)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args)
+2025-07-03 15:54:37.620 +05:30 [INF] Application starting up
+2025-07-03 15:54:52.855 +05:30 [INF] Start
+2025-07-03 15:54:53.189 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:54:53.225 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:55:20.262 +05:30 [INF] Application starting up
+2025-07-03 15:55:44.316 +05:30 [INF] Start
+2025-07-03 15:55:44.399 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:55:57.269 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:55:58.948 +05:30 [INF] Application starting up
+2025-07-03 15:56:07.329 +05:30 [INF] Start
+2025-07-03 15:56:07.413 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:56:19.279 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:56:28.190 +05:30 [INF] Application starting up
+2025-07-03 15:56:52.790 +05:30 [INF] Start
+2025-07-03 15:56:52.881 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:56:59.382 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:57:01.175 +05:30 [INF] Application starting up
+2025-07-03 15:57:23.786 +05:30 [INF] Start
+2025-07-03 15:57:23.867 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:57:26.197 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 15:59:30.111 +05:30 [INF] Application starting up
+2025-07-03 15:59:32.976 +05:30 [INF] Start
+2025-07-03 15:59:33.058 +05:30 [INF] An error occurred while starting the watcher: Couldn't set data source (Parameter 'data source')
+2025-07-03 15:59:37.055 +05:30 [FTL] Application start-up failed
+System.ArgumentException: Couldn't set data source (Parameter 'data source')
+ ---> System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at Npgsql.NpgsqlConnectionStringBuilder.GeneratedActions(GeneratedAction action, String keyword, Object& value)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   --- End of inner exception stack trace ---
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Common.DataAccess.PostgreSql.QueryHelper.Read[T](String sql, List`1 sqlParameters, Func`2 make) in C:\Users\HP\source\repos\Common\Src\Common.DataAccess.PostgreSql\QueryHelper.cs:line 117
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetConnectionString(String Domain) in D:\ETLManager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 59
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in D:\ETLManager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in D:\ETLManager\ETLManager\Program.cs:line 61
+2025-07-03 16:00:25.672 +05:30 [INF] Application starting up
+2025-07-03 16:00:43.880 +05:30 [FTL] Application start-up failed
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 95
+   at ETLManager.Program.<>c__DisplayClass2_0.<CreateHostBuilder>b__1(IServiceProvider x)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args)
+2025-07-03 16:00:46.814 +05:30 [INF] Application starting up
+2025-07-03 16:00:55.798 +05:30 [INF] Start
+2025-07-03 16:00:59.532 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:01:02.206 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:03:38.165 +05:30 [INF] Application starting up
+2025-07-03 16:03:40.550 +05:30 [INF] Start
+2025-07-03 16:03:44.061 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:03:49.424 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:05:07.320 +05:30 [INF] Application starting up
+2025-07-03 16:05:10.189 +05:30 [INF] Start
+2025-07-03 16:05:14.791 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:05:16.153 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:06:29.511 +05:30 [INF] Application starting up
+2025-07-03 16:06:31.702 +05:30 [INF] Start
+2025-07-03 16:06:33.377 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:06:34.923 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:06:44.225 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP.csv
+2025-07-03 16:06:44.452 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-03 16:06:44.453 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-03 16:06:44.453 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-03 16:06:44.558 +05:30 [INF] Application starting up
+2025-07-03 16:06:44.591 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-03 16:06:44.684 +05:30 [INF] Start
+2025-07-03 16:06:44.741 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:06:44.741 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP.csv
+2025-07-03 16:06:44.742 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:06:46.083 +05:30 [INF] Extracted Invoice Number: NV00001
+2025-07-03 16:06:46.083 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-03 16:06:46.083 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-03 16:06:46.815 +05:30 [INF] Not found csv data please check.
+2025-07-03 16:08:38.134 +05:30 [INF] Application starting up
+2025-07-03 16:08:41.726 +05:30 [INF] Start
+2025-07-03 16:08:42.793 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:08:46.055 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:09:20.250 +05:30 [INF] Application starting up
+2025-07-03 16:09:20.777 +05:30 [INF] Start
+2025-07-03 16:09:21.864 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 16:09:21.888 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 16:09:44.000 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:09:57.999 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-03 16:09:57.999 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-03 16:09:57.999 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-03 16:09:58.100 +05:30 [INF] Application starting up
+2025-07-03 16:09:58.133 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-03 16:09:58.230 +05:30 [INF] Start
+2025-07-03 16:09:58.273 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:09:58.273 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:09:58.274 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:09:59.184 +05:30 [INF] Extracted Invoice Number: NV00001
+2025-07-03 16:09:59.185 +05:30 [INF] Extracted Invoice Type: 01
+2025-07-03 16:09:59.185 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-03 16:09:59.901 +05:30 [INF] Not found csv data please check.
+2025-07-03 18:01:17.716 +05:30 [INF] Application starting up
+2025-07-03 18:01:17.872 +05:30 [INF] Start
+2025-07-03 18:01:18.870 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 18:01:18.879 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 18:01:19.492 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:19.607 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-03 18:01:19.607 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-03 18:01:19.608 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-03 18:01:19.712 +05:30 [INF] Application starting up
+2025-07-03 18:01:19.747 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-03 18:01:19.846 +05:30 [INF] Start
+2025-07-03 18:01:19.891 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:01:19.891 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:19.893 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:01:20.837 +05:30 [INF] Extracted Invoice Number: CN00001
+2025-07-03 18:01:20.838 +05:30 [INF] Extracted Invoice Type: 02
+2025-07-03 18:01:20.838 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-03 18:01:21.600 +05:30 [INF] CSV Data Found
+2025-07-03 18:01:21.624 +05:30 [INF] Invoicedata
+2025-07-03 18:01:21.740 +05:30 [INF] Invoice Line Items
+2025-07-03 18:01:21.745 +05:30 [INF] DocTaxSubTotal
+2025-07-03 18:01:21.752 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-03 18:01:21.752 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-03 18:01:21.985 +05:30 [INF] Finished processing Invoice
+2025-07-03 18:01:21.985 +05:30 [INF] All invoices processed
+2025-07-03 18:01:22.094 +05:30 [INF] Count = 1
+2025-07-03 18:01:22.095 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:22.097 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:22.098 +05:30 [INF] Total time taken in process: 1.2579746 seconds
+2025-07-03 18:01:22.099 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv to C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Processed\Advintek_02_V1_01312025_CN00001_Processed.csv
+2025-07-03 18:01:22.099 +05:30 [INF] Total time taken in moving: 0.0042584 seconds
+2025-07-03 18:03:04.786 +05:30 [INF] Application starting up
+2025-07-03 18:03:04.942 +05:30 [INF] Start
+2025-07-03 18:03:05.778 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 18:03:05.787 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 18:03:07.434 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:03:07.536 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-03 18:03:07.536 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-03 18:03:07.536 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-03 18:03:07.634 +05:30 [INF] Application starting up
+2025-07-03 18:03:07.664 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-03 18:03:07.751 +05:30 [INF] Start
+2025-07-03 18:03:07.792 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:03:07.792 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:03:07.793 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:03:08.640 +05:30 [INF] Extracted Invoice Number: CN00001
+2025-07-03 18:03:08.640 +05:30 [INF] Extracted Invoice Type: 02
+2025-07-03 18:03:08.640 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-03 18:03:09.317 +05:30 [INF] CSV Data Found
+2025-07-03 18:03:09.341 +05:30 [INF] Invoicedata
+2025-07-03 18:03:09.457 +05:30 [INF] Invoice Line Items
+2025-07-03 18:03:09.462 +05:30 [INF] DocTaxSubTotal
+2025-07-03 18:03:09.469 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-03 18:03:09.469 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-03 18:03:09.624 +05:30 [INF] Finished processing Invoice
+2025-07-03 18:03:09.625 +05:30 [INF] All invoices processed
+2025-07-03 18:03:09.783 +05:30 [INF] Count = 1
+2025-07-03 18:03:09.783 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:03:09.784 +05:30 [INF] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:14.912 +05:30 [INF] Finished processing Invoice
+2025-07-03 18:03:14.913 +05:30 [INF] All invoices processed
+2025-07-03 18:03:15.019 +05:30 [INF] Count = 2
+2025-07-03 18:03:15.019 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 18:03:15.020 +05:30 [INF] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:20.127 +05:30 [INF] Finished processing Invoice
+2025-07-03 18:03:20.130 +05:30 [INF] All invoices processed
+2025-07-03 18:03:20.214 +05:30 [INF] Count = 3
+2025-07-03 18:03:20.217 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-07-03 18:03:20.218 +05:30 [INF] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:20.180 +05:30 [INF] Application starting up
+2025-07-03 18:04:20.336 +05:30 [INF] Start
+2025-07-03 18:04:21.183 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 18:04:21.191 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 18:08:25.537 +05:30 [INF] Application starting up
+2025-07-03 18:08:25.692 +05:30 [INF] Start
+2025-07-03 18:08:26.577 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 18:08:26.586 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 19:20:48.642 +05:30 [INF] Application starting up
+2025-07-03 19:20:48.796 +05:30 [INF] Start
+2025-07-03 19:20:49.746 +05:30 [INF] Started task: Processing domain: DemoDB
+2025-07-03 19:20:49.755 +05:30 [INF] Processing domain: DemoDB
+2025-07-03 19:20:51.067 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:20:51.175 +05:30 [INF] LogDirectory :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log
+2025-07-03 19:20:51.176 +05:30 [INF] LogFileName :- filePaths.txt
+2025-07-03 19:20:51.176 +05:30 [INF] Logfilepath :- D:\ETL\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-07-03 19:20:51.273 +05:30 [INF] Application starting up
+2025-07-03 19:20:51.303 +05:30 [INF] C:\Users\Admin\AppData\Local\Temp\filePaths.txt
+2025-07-03 19:20:51.390 +05:30 [INF] Start
+2025-07-03 19:20:51.431 +05:30 [INF] Main thread ID: 1
+2025-07-03 19:20:51.431 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:20:51.432 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 19:20:52.406 +05:30 [INF] Extracted Invoice Number: DN00001
+2025-07-03 19:20:52.406 +05:30 [INF] Extracted Invoice Type: 03
+2025-07-03 19:20:52.406 +05:30 [INF] Extracted Domain Name: DemoDB
+2025-07-03 19:20:53.382 +05:30 [INF] CSV Data Found
+2025-07-03 19:20:53.406 +05:30 [INF] Invoicedata
+2025-07-03 19:20:53.521 +05:30 [INF] Invoice Line Items
+2025-07-03 19:20:53.526 +05:30 [INF] DocTaxSubTotal
+2025-07-03 19:20:53.533 +05:30 [INF] Method AdvintekInvLMapping not found in PDFMappingService.
+2025-07-03 19:20:53.533 +05:30 [INF] Method AdvintekLineMapping not found in PDFMappingService.
+2025-07-03 19:20:53.866 +05:30 [INF] Finished processing Invoice
+2025-07-03 19:20:53.866 +05:30 [INF] All invoices processed
+2025-07-03 19:20:54.387 +05:30 [INF] Count = 1
+2025-07-03 19:20:54.387 +05:30 [INF] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 19:20:54.388 +05:30 [INF] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist

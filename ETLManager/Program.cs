@@ -99,8 +99,16 @@ namespace ETLManager
                        //string connection = configuration.GetConnectionString("Database");
                        var encPassword = string.Empty;
                        var password = string.Empty;
-                       encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(9);
-                       password = SecurityHelper.DecryptWithEmbedKey(encPassword);
+                       var dbtype = dbConfig.DataProvider.ToLower().Trim();
+                       if (dbtype == "sqlserver")
+                       {
+                           encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(10);
+                       }
+                       else
+                       {
+                           encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(9);
+                       }
+                           password = SecurityHelper.DecryptWithEmbedKey(encPassword);
                        //if (dbConfig.PasswordUtility != null && dbConfig.PasswordUtility.ToLower() == "old")
                        //{
                        //    password = SecurityHelper.DecryptWithEmbedKey(encPassword, 15);

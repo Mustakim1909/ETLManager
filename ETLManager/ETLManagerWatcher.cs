@@ -1,4 +1,5 @@
-﻿using Common.DataAccess.PostgreSql;
+﻿using ClosedXML.Excel;
+using CsvHelper;
 using ETL.Service.Repo.Interface;
 using ETLManager.Service.Model;
 using Microsoft.Extensions.Hosting;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Serilog;
 using System.Diagnostics;
+using System.Globalization;
 
 namespace ETLManager
 {
@@ -16,6 +18,7 @@ namespace ETLManager
         private readonly List<WatcherConfig> _watcherConfigs;
         private static readonly object _logLock = new object();
         private readonly IETLManagerService _eTLManagerService;
+        private int Iscreated;
 
         public ETLManagerWatcher(IOptions<Appsettings> appsettings, IOptions<List<WatcherConfig>> watcherConfigs,IETLManagerService eTLManagerService)
         {
@@ -23,6 +26,7 @@ namespace ETLManager
             _eTLManagerService = eTLManagerService;
             _watchers = new List<FileSystemWatcher>();
             _watcherConfigs = watcherConfigs.Value;
+            Iscreated = 0;
             // Initialize the watchers based on the path and domain configurations
             foreach (var config in _watcherConfigs)
             {
@@ -105,13 +109,39 @@ namespace ETLManager
                 LogThreadSafe($"Processing domain: {domainName}");
 
                 List<string> files = new List<string>();
-                var paths = await _eTLManagerService.GetPath();
+                var paths = await _eTLManagerService.GetPath(_appsettings.CompanyName);
                 foreach (var path in paths)
                 {
                     string fullPath = Path.Combine(SourcePath, domainName, path.FinPutSource);
                     if (!Directory.Exists(fullPath))
                     {
                         return;
+                    }
+                    var xlsxFiles = Directory.GetFiles(fullPath, "*.xlsx");
+                    foreach (var xlsxFile in xlsxFiles)
+                    {
+                        using (var workbook = new XLWorkbook(xlsxFile))
+                        {
+                            Iscreated = 1;
+                            var worksheet = workbook.Worksheets.First();
+                            string csvFile = Path.ChangeExtension(xlsxFile, ".csv");
+
+                            using (var writer = new StreamWriter(csvFile))
+                            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                            {
+                                foreach (var row in worksheet.RowsUsed())
+                                {
+                                    foreach (var cell in row.Cells())
+                                    {
+                                        csv.WriteField(cell.Value.ToString());
+                                    }
+                                    csv.NextRecord();
+                                }
+                            }
+                        }
+
+                        // Delete original .xlsx file
+                        File.Delete(xlsxFile);
                     }
                     // Get all files from the current domain path
                     var file = Directory.GetFiles(fullPath, "*.csv");
@@ -159,7 +189,7 @@ namespace ETLManager
 
 
         public async Task<bool> RetriveCsv(List<string> ResivefilePaths, CancellationToken cancellationToken)
-        {
+            {
             List<string> filePaths = new List<string>();
             //Move files in InProcess
             foreach (var file in ResivefilePaths)
@@ -171,7 +201,16 @@ namespace ETLManager
                     {
                         Directory.CreateDirectory(newPath);
                     }
-                    var newFilePath = Path.Combine(newPath, $"{Path.GetFileNameWithoutExtension(file)}_WIP{Path.GetExtension(file)}");
+
+                    var fileName = $"{Path.GetFileNameWithoutExtension(file)}_WIP{Path.GetExtension(file)}";
+                    var newFilePath = Path.Combine(newPath, fileName);
+
+                    // Check if the destination file already exists
+                    if (File.Exists(newFilePath))
+                    {
+                        File.Delete(newFilePath); // Delete the existing file
+                    }
+
                     File.Move(file, newFilePath);
                     Console.WriteLine($"New File Path : {newFilePath}");
                     filePaths.Add(newFilePath);
@@ -211,7 +250,7 @@ namespace ETLManager
                             string filePathsArgument = JsonConvert.SerializeObject(filePaths);
                             filePathsArgument = "[" + filePathsArgument.Substring(1, filePathsArgument.Length - 2) + " ]";
                             string tempFilePath = Path.Combine(Path.GetTempPath(), "filePaths.txt");
-                            File.WriteAllText(tempFilePath, filePathsArgument);
+                                File.WriteAllText(tempFilePath, filePathsArgument);
 
                             var startInfo = new ProcessStartInfo
                             {
@@ -249,14 +288,20 @@ namespace ETLManager
                         }
                     }
                     else if (_appsettings.Operatingsystem.ToLower().Contains("lin"))
-                    {                       
-                        // Join all file paths into a single string separated by spaces
-                        string filePathsArgument = string.Join(" ", filePaths);
+                    {
+                        // Convert file paths to JSON and wrap in square brackets
+                        string filePathsArgument = JsonConvert.SerializeObject(filePaths);
+                        filePathsArgument = "[" + filePathsArgument.Substring(1, filePathsArgument.Length - 2) + " ]";
+
+                        // Write JSON to temp file
+                        string tempFilePath = Path.Combine(Path.GetTempPath(), "filePaths.txt");
+                        File.WriteAllText(tempFilePath, filePathsArgument);
 
                         var startInfo = new ProcessStartInfo
                         {
                             FileName = "dotnet",
-                            Arguments = $"{exeFilePath} {filePathsArgument}",  // Pass all file paths as arguments
+                            Arguments = $"\"{exeFilePath}\" \"{tempFilePath}\"",  // Pass all file paths as arguments
+                           // Arguments = $"{exeFilePath} {filePathsArgument}",  // Pass all file paths as arguments
                             UseShellExecute = false,
                             CreateNoWindow = true,
                             RedirectStandardOutput = true,  // Capture standard output
@@ -266,6 +311,7 @@ namespace ETLManager
 
                         try
                         {
+                            Console.WriteLine($"Running: dotnet \"{exeFilePath}\" {filePathsArgument}");
                             using (var process = new Process())
                             {
                                 process.StartInfo = startInfo;
@@ -324,6 +370,10 @@ namespace ETLManager
 
         private async void OnCreated(object sender, FileSystemEventArgs e)
         {
+            if(Iscreated == 1)
+            {
+                return;
+            }
             // Handle the file creation event
             if(!e.FullPath.Contains("Temp_Process") && !e.FullPath.Contains("Processed"))
             {

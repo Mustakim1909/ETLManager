@@ -1,0 +1,228 @@
+2025-06-12 16:11:19.751 +05:30 [INF] Application starting up
+2025-06-12 16:11:21.258 +05:30 [INF] Start
+2025-06-12 16:11:25.080 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:11:44.338 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:11:45.674 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP_WIP.csv
+2025-06-12 16:11:51.842 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-12 16:11:51.842 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-12 16:11:51.842 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-12 16:11:52.002 +05:30 [INF] Application starting up
+2025-06-12 16:11:52.052 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-12 16:11:52.190 +05:30 [INF] Start
+2025-06-12 16:11:52.250 +05:30 [INF] Main thread ID: 1
+2025-06-12 16:11:52.250 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP_WIP.csv
+2025-06-12 16:11:52.252 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-12 16:11:53.330 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-12 16:11:53.332 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-12 16:11:53.332 +05:30 [INF] Extracted Domain Name: Silva
+2025-06-12 16:11:54.099 +05:30 [INF] CSV Data Found
+2025-06-12 16:11:54.136 +05:30 [INF] Invoicedata
+2025-06-12 16:11:54.331 +05:30 [INF] Invoice Line Items
+2025-06-12 16:11:54.339 +05:30 [INF] DocTaxSubTotal
+2025-06-12 16:11:54.351 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-12 16:11:54.351 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-12 16:11:54.908 +05:30 [INF] Finished processing Invoice
+2025-06-12 16:11:54.908 +05:30 [INF] All invoices processed
+2025-06-12 16:11:55.153 +05:30 [INF] Count = 1
+2025-06-12 16:11:55.154 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP_WIP.csv
+2025-06-12 16:11:55.155 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP_WIP.csv
+2025-06-12 16:11:55.156 +05:30 [INF] Total time taken in process: 1.8279624 seconds
+2025-06-12 16:11:55.160 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP_WIP.csv to C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed_Processed.csv
+2025-06-12 16:14:08.423 +05:30 [INF] Application starting up
+2025-06-12 16:14:09.130 +05:30 [INF] Start
+2025-06-12 16:14:09.167 +05:30 [INF] An error occurred while starting the watcher: The method or operation is not implemented.
+2025-06-12 16:14:09.230 +05:30 [FTL] Application start-up failed
+System.NotImplementedException: The method or operation is not implemented.
+   at ETL.Service.Repo.MSSQL.ETLManagerService.GetConnectionString(String domain) in G:\ETL-Manager\ETLManager.Service\Repo\MSSQL\ETLManagerService.cs:line 34
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-06-12 16:17:05.719 +05:30 [INF] Application starting up
+2025-06-12 16:17:06.356 +05:30 [INF] Start
+2025-06-12 16:17:06.389 +05:30 [INF] An error occurred while starting the watcher: The method or operation is not implemented.
+2025-06-12 16:17:06.448 +05:30 [FTL] Application start-up failed
+System.NotImplementedException: The method or operation is not implemented.
+   at ETL.Service.Repo.MSSQL.ETLManagerService.GetConnectionString(String domain) in G:\ETL-Manager\ETLManager.Service\Repo\MSSQL\ETLManagerService.cs:line 34
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-06-12 16:17:35.154 +05:30 [INF] Application starting up
+2025-06-12 16:17:36.130 +05:30 [INF] Start
+2025-06-12 16:17:36.176 +05:30 [INF] An error occurred while starting the watcher: The method or operation is not implemented.
+2025-06-12 16:17:36.255 +05:30 [FTL] Application start-up failed
+System.NotImplementedException: The method or operation is not implemented.
+   at ETL.Service.Repo.MSSQL.ETLManagerService.GetConnectionString(String domain) in G:\ETL-Manager\ETLManager.Service\Repo\MSSQL\ETLManagerService.cs:line 34
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 82
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-06-12 16:18:20.643 +05:30 [INF] Application starting up
+2025-06-12 16:18:35.404 +05:30 [INF] Application starting up
+2025-06-12 16:19:22.406 +05:30 [INF] Application starting up
+2025-06-12 16:19:46.559 +05:30 [INF] Start
+2025-06-12 16:19:46.588 +05:30 [INF] An error occurred while starting the watcher: The method or operation is not implemented.
+2025-06-12 16:20:05.546 +05:30 [INF] Application starting up
+2025-06-12 16:20:58.939 +05:30 [INF] Start
+2025-06-12 16:20:58.967 +05:30 [INF] An error occurred while starting the watcher: The method or operation is not implemented.
+2025-06-12 16:24:16.310 +05:30 [INF] Application starting up
+2025-06-12 16:24:29.279 +05:30 [INF] Start
+2025-06-12 16:24:32.295 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:24:34.539 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:25:23.757 +05:30 [INF] Application starting up
+2025-06-12 16:25:43.694 +05:30 [INF] Start
+2025-06-12 16:29:33.649 +05:30 [INF] Application starting up
+2025-06-12 16:29:34.727 +05:30 [INF] Start
+2025-06-12 16:29:49.826 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:29:50.665 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:29:51.171 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-12 16:29:51.463 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-12 16:29:51.463 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-12 16:29:51.463 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-12 16:29:51.659 +05:30 [INF] Application starting up
+2025-06-12 16:29:51.714 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-12 16:29:51.894 +05:30 [INF] System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+2025-06-12 16:29:51.895 +05:30 [INF]    at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:29:51.895 +05:30 [INF]    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:29:51.895 +05:30 [INF]    at System.Convert.FromBase64String(String s)
+2025-06-12 16:29:51.895 +05:30 [INF]    at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 97
+2025-06-12 16:29:51.896 +05:30 [INF]    at ETLDEMO.Program.<>c__DisplayClass2_1.<CreateHostBuilder>b__1(IServiceProvider x) in G:\ETL-Worker\ETLDEMO\Program.cs:line 130
+2025-06-12 16:29:51.896 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.896 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.896 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.896 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.896 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.897 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.899 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.900 +05:30 [INF] ERROR: Unhandled exception. System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+2025-06-12 16:29:51.900 +05:30 [INF] ERROR:    at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:29:51.901 +05:30 [INF] ERROR:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:29:51.901 +05:30 [INF] ERROR:    at System.Convert.FromBase64String(String s)
+2025-06-12 16:29:51.902 +05:30 [INF] ERROR:    at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 97
+2025-06-12 16:29:51.902 +05:30 [INF] ERROR:    at ETLDEMO.Program.<>c__DisplayClass2_1.<CreateHostBuilder>b__1(IServiceProvider x) in G:\ETL-Worker\ETLDEMO\Program.cs:line 130
+2025-06-12 16:29:51.903 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.903 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.904 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.904 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.905 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.908 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.909 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.910 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.910 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.911 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.911 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.912 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.912 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.913 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.913 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+2025-06-12 16:29:51.913 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+2025-06-12 16:29:51.915 +05:30 [INF]    at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+2025-06-12 16:29:51.917 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+2025-06-12 16:29:51.918 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+2025-06-12 16:29:51.918 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.920 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.921 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.921 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:29:51.922 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:29:51.925 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+2025-06-12 16:29:51.925 +05:30 [INF]    at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2025-06-12 16:29:51.926 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+2025-06-12 16:29:51.926 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:29:51.927 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:29:51.927 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+2025-06-12 16:29:51.928 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+2025-06-12 16:29:51.928 +05:30 [INF] ERROR:    at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+2025-06-12 16:29:51.929 +05:30 [INF]    at ETLDEMO.Program.Main(String[] args) in G:\ETL-Worker\ETLDEMO\Program.cs:line 84 Application start-up failed
+2025-06-12 16:29:51.929 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+2025-06-12 16:29:51.929 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+2025-06-12 16:29:51.930 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+2025-06-12 16:29:51.930 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2025-06-12 16:29:51.931 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:29:51.931 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:29:51.932 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+2025-06-12 16:29:51.932 +05:30 [INF] ERROR:    at ETLDEMO.Program.Main(String[] args) in G:\ETL-Worker\ETLDEMO\Program.cs:line 84
+2025-06-12 16:30:17.042 +05:30 [INF] Application starting up
+2025-06-12 16:30:21.261 +05:30 [INF] Start
+2025-06-12 16:30:53.966 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:30:55.979 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:31:46.221 +05:30 [INF] Application starting up
+2025-06-12 16:31:50.110 +05:30 [INF] Start
+2025-06-12 16:31:53.561 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:31:59.267 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:33:06.730 +05:30 [INF] Application starting up
+2025-06-12 16:33:07.783 +05:30 [INF] Start
+2025-06-12 16:33:09.073 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-12 16:33:29.337 +05:30 [INF] Processing domain: Silva
+2025-06-12 16:34:07.771 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-12 16:34:36.090 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-12 16:34:36.091 +05:30 [INF] ERROR: Unhandled exception. System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+2025-06-12 16:34:36.094 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-12 16:34:36.094 +05:30 [INF] ERROR:    at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:34:36.094 +05:30 [INF] ERROR:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:34:36.095 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-12 16:34:36.095 +05:30 [INF] Application starting up
+2025-06-12 16:34:36.095 +05:30 [INF] ERROR:    at System.Convert.FromBase64String(String s)
+2025-06-12 16:34:36.096 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-12 16:34:36.096 +05:30 [INF] System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+2025-06-12 16:34:36.096 +05:30 [INF]    at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:34:36.096 +05:30 [INF] ERROR:    at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 97
+2025-06-12 16:34:36.097 +05:30 [INF] ERROR:    at ETLDEMO.Program.<>c__DisplayClass2_1.<CreateHostBuilder>b__1(IServiceProvider x) in G:\ETL-Worker\ETLDEMO\Program.cs:line 130
+2025-06-12 16:34:36.097 +05:30 [INF]    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+2025-06-12 16:34:36.097 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.097 +05:30 [INF]    at System.Convert.FromBase64String(String s)
+2025-06-12 16:34:36.098 +05:30 [INF]    at Common.Security.SecurityHelper.DecryptWithEmbedKey(String cipherText) in C:\Users\HP\source\repos\Common\Src\Common.Security\SecurityHelper.cs:line 97
+2025-06-12 16:34:36.099 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.099 +05:30 [INF]    at ETLDEMO.Program.<>c__DisplayClass2_1.<CreateHostBuilder>b__1(IServiceProvider x) in G:\ETL-Worker\ETLDEMO\Program.cs:line 130
+2025-06-12 16:34:36.102 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.102 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.102 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.103 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.103 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.103 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.104 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.104 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.104 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.104 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.104 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.105 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.105 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.105 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.106 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+2025-06-12 16:34:36.106 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+2025-06-12 16:34:36.106 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.106 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.106 +05:30 [INF] ERROR:    at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+2025-06-12 16:34:36.107 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.107 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+2025-06-12 16:34:36.107 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+2025-06-12 16:34:36.107 +05:30 [INF] ERROR:    at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+2025-06-12 16:34:36.108 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2025-06-12 16:34:36.108 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:34:36.108 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.108 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:34:36.109 +05:30 [INF] ERROR:    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+2025-06-12 16:34:36.109 +05:30 [INF] ERROR:    at ETLDEMO.Program.Main(String[] args) in G:\ETL-Worker\ETLDEMO\Program.cs:line 84
+2025-06-12 16:34:36.109 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.110 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.110 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.110 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.111 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+2025-06-12 16:34:36.111 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+2025-06-12 16:34:36.112 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+2025-06-12 16:34:36.113 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+2025-06-12 16:34:36.113 +05:30 [INF]    at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+2025-06-12 16:34:36.113 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+2025-06-12 16:34:36.114 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+2025-06-12 16:34:36.114 +05:30 [INF]    at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+2025-06-12 16:34:36.114 +05:30 [INF]    at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2025-06-12 16:34:36.115 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:34:36.115 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+2025-06-12 16:34:36.115 +05:30 [INF]    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+2025-06-12 16:34:36.931 +05:30 [INF]    at ETLDEMO.Program.Main(String[] args) in G:\ETL-Worker\ETLDEMO\Program.cs:line 84 Application start-up failed

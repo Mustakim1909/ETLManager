@@ -30,12 +30,16 @@ namespace ETL.Service.Repo.PostgreSql
             _connectionString = initialConnectionString;
             _queryHelper = new QueryHelper(initialConnectionString);
         }
-        public async Task<List<FileNamePrefix>> GetPath()
+        public async Task<List<FileNamePrefix>> GetPath(string CompanyName)
         {
-            var sql = $"SELECT * FROM FileNamePrefix";
+            var sql = $"SELECT * FROM FileNamePrefix Where SourceName=@SourceName";
             try
             {
-                var data = (await _queryHelper.Read(sql, null, FilePathList))?.ToList();
+                var parameters = new List<IDataParameter>
+                {
+                     QueryHelper.CreateSqlParameter("@SourceName", CompanyName, NpgsqlDbType.Text)
+                };
+                var data = (await _queryHelper.Read(sql, parameters, FilePathList))?.ToList();
 
                 return data;
             }

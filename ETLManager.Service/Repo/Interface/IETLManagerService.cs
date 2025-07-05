@@ -6,7 +6,7 @@ namespace ETL.Service.Repo.Interface
 {
     public interface IETLManagerService
     {
-        Task<List<FileNamePrefix>> GetPath();
+        Task<List<FileNamePrefix>> GetPath(string CompanyName);
         Task<TenantDetails> GetConnectionString(string domain);
         Task SetConnectionString(string connectionstring);
     }

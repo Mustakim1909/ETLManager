@@ -1,0 +1,119 @@
+2025-06-04 13:38:46.019 +05:30 [INF] Application starting up
+2025-06-04 13:38:46.713 +05:30 [INF] Start
+2025-06-04 13:38:48.437 +05:30 [INF] Started task: Processing domain: JPS
+2025-06-04 13:38:48.616 +05:30 [INF] Processing domain: JPS
+2025-06-04 13:39:08.253 +05:30 [INF] Application starting up
+2025-06-04 13:39:08.485 +05:30 [INF] Start
+2025-06-04 13:39:09.888 +05:30 [INF] Started task: Processing domain: SLV
+2025-06-04 13:39:09.902 +05:30 [INF] Processing domain: SLV
+2025-06-04 13:39:10.081 +05:30 [INF] Error processing domain SLV: 42P01: relation "filenameprefix" does not exist
+
+POSITION: 15
+2025-06-04 13:39:10.083 +05:30 [INF] An error occurred while starting the watcher: 42P01: relation "filenameprefix" does not exist
+
+POSITION: 15
+2025-06-04 13:39:10.095 +05:30 [FTL] Application start-up failed
+Npgsql.PostgresException (0x80004005): 42P01: relation "filenameprefix" does not exist
+
+POSITION: 15
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetPath() in G:\ETL-Manager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 44
+   at ETLManager.ETLManagerWatcher.ProcessDomainFiles(String SourcePath, String domainName, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 112
+   at ETLManager.ETLManagerWatcher.<>c__DisplayClass8_1.<<StartAsync>b__0>d.MoveNext() in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 91
+--- End of stack trace from previous location ---
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 95
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "filenameprefix" does not exist
+    Position: 15
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+2025-06-04 13:39:46.461 +05:30 [INF] Application starting up
+2025-06-04 13:39:46.703 +05:30 [FTL] Application start-up failed
+System.ArgumentException: The directory name 'C:\BackOffice\ETL_Replacement\Silva' does not exist. (Parameter 'Path')
+   at System.IO.FileSystemWatcher.set_Path(String value)
+   at ETLManager.ETLManagerWatcher..ctor(IOptions`1 appsettings, IOptions`1 watcherConfigs, IETLManagerService eTLManagerService) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 34
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-06-04 13:40:13.085 +05:30 [INF] Application starting up
+2025-06-04 13:40:13.310 +05:30 [INF] Start
+2025-06-04 13:40:14.666 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-04 13:40:14.679 +05:30 [INF] Processing domain: Silva
+2025-06-04 13:40:55.084 +05:30 [INF] Application starting up
+2025-06-04 13:40:55.312 +05:30 [INF] Start
+2025-06-04 13:40:57.224 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-04 13:40:57.238 +05:30 [INF] Processing domain: Silva
+2025-06-04 13:44:23.425 +05:30 [INF] Application starting up
+2025-06-04 13:44:23.651 +05:30 [INF] Start
+2025-06-04 13:44:24.779 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-04 13:44:24.793 +05:30 [INF] Processing domain: Silva
+2025-06-04 13:44:25.842 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 13:44:27.261 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-04 13:44:27.261 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-04 13:44:27.261 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-04 13:44:27.623 +05:30 [INF] Application starting up
+2025-06-04 13:44:27.935 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-04 13:44:28.165 +05:30 [INF] Start
+2025-06-04 13:44:28.225 +05:30 [INF] Main thread ID: 1
+2025-06-04 13:44:28.225 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 13:44:28.227 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 13:44:29.622 +05:30 [INF] Extracted Invoice Number: S2504244WQM0JPP
+2025-06-04 13:44:29.622 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-04 13:44:29.622 +05:30 [INF] Extracted Domain Name: Silva
+2025-06-04 13:44:31.852 +05:30 [INF] Not found csv data please check.
+2025-06-04 15:24:02.768 +05:30 [INF] Application starting up
+2025-06-04 15:24:03.001 +05:30 [INF] Start
+2025-06-04 15:24:04.882 +05:30 [INF] Started task: Processing domain: Silva
+2025-06-04 15:24:04.895 +05:30 [INF] Processing domain: Silva
+2025-06-04 15:24:05.589 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:05.780 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-04 15:24:05.781 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-04 15:24:05.781 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-04 15:24:05.932 +05:30 [INF] Application starting up
+2025-06-04 15:24:05.981 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-04 15:24:06.111 +05:30 [INF] Start
+2025-06-04 15:24:06.171 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:24:06.171 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:06.173 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:24:07.207 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-04 15:24:07.207 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-04 15:24:07.207 +05:30 [INF] Extracted Domain Name: Silva
+2025-06-04 15:24:08.098 +05:30 [INF] CSV Data Found
+2025-06-04 15:24:08.140 +05:30 [INF] Invoicedata
+2025-06-04 15:24:08.318 +05:30 [INF] Invoice Line Items
+2025-06-04 15:24:08.325 +05:30 [INF] DocTaxSubTotal
+2025-06-04 15:24:08.335 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-04 15:24:08.336 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-04 15:24:08.650 +05:30 [INF] Finished processing Invoice
+2025-06-04 15:24:08.651 +05:30 [INF] All invoices processed
+2025-06-04 15:24:08.887 +05:30 [INF] Count = 1
+2025-06-04 15:24:08.887 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:08.888 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:08.888 +05:30 [INF] Total time taken in process: 1.6808018 seconds
+2025-06-04 15:24:08.889 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-04 15:24:08.890 +05:30 [INF] Total time taken in moving: 0.0020455 seconds

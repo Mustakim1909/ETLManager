@@ -1,0 +1,69 @@
+2025-06-13 16:24:30.916 +05:30 [INF] Application starting up
+2025-06-13 16:24:31.516 +05:30 [INF] Start
+2025-06-13 16:24:32.362 +05:30 [INF] Started task: Processing domain: Allied_Sirva
+2025-06-13 16:24:32.575 +05:30 [INF] Processing domain: Allied_Sirva
+2025-06-13 16:25:19.670 +05:30 [INF] Application starting up
+2025-06-13 16:25:19.895 +05:30 [INF] Start
+2025-06-13 16:25:20.682 +05:30 [INF] Started task: Processing domain: Allied_Sirva
+2025-06-13 16:25:20.696 +05:30 [INF] Processing domain: Allied_Sirva
+2025-06-13 16:25:33.279 +05:30 [INF] Application starting up
+2025-06-13 16:25:34.335 +05:30 [INF] Start
+2025-06-13 16:25:35.419 +05:30 [INF] Started task: Processing domain: Allied_Sirva
+2025-06-13 16:25:43.724 +05:30 [INF] Processing domain: Allied_Sirva
+2025-06-13 16:41:56.714 +05:30 [INF] Application starting up
+2025-06-13 16:52:06.539 +05:30 [INF] Application starting up
+2025-06-13 16:52:07.247 +05:30 [INF] Start
+2025-06-13 16:52:08.231 +05:30 [INF] Started task: Processing domain: Allied_Sirva
+2025-06-13 16:52:15.760 +05:30 [INF] Processing domain: Allied_Sirva
+2025-06-13 16:52:35.589 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 16:52:36.328 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-13 16:52:36.329 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-13 16:52:36.329 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-13 16:52:36.557 +05:30 [INF] Application starting up
+2025-06-13 16:52:36.805 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-13 16:52:37.018 +05:30 [INF] Start
+2025-06-13 16:52:37.090 +05:30 [INF] Main thread ID: 1
+2025-06-13 16:52:37.090 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 16:52:37.092 +05:30 [INF] Processing files for domain: Allied_Sirva, invoiceType: SLV
+2025-06-13 16:52:38.200 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-13 16:52:38.201 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-13 16:52:38.201 +05:30 [INF] Extracted Domain Name: Allied_Sirva
+2025-06-13 16:52:38.803 +05:30 [INF] Mapping is have for : SLV
+2025-06-13 16:52:38.819 +05:30 [INF] Exception In ReadCsv
+2025-06-13 16:52:38.819 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-06-13 16:52:38.819 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-06-13 16:52:38.819 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-06-13 16:52:38.820 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-06-13 16:52:38.820 +05:30 [INF] Error processing files for domain Allied_Sirva: No mappings were specified in the CsvClassMap.
+2025-06-13 16:52:38.820 +05:30 [INF] The following files were not found and skipped:
+2025-06-13 16:52:38.820 +05:30 [INF] C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 17:44:21.619 +05:30 [INF] Application starting up
+2025-06-13 17:44:21.850 +05:30 [INF] Start
+2025-06-13 17:44:22.169 +05:30 [INF] Started task: Processing domain: Aramex
+2025-06-13 17:44:22.182 +05:30 [INF] Processing domain: Aramex
+2025-06-13 17:44:22.308 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\Aramex\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 17:44:22.845 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-06-13 17:44:22.845 +05:30 [INF] LogFileName :- filePaths.txt
+2025-06-13 17:44:22.845 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-06-13 17:44:22.995 +05:30 [INF] Application starting up
+2025-06-13 17:44:23.042 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-06-13 17:44:23.171 +05:30 [INF] Start
+2025-06-13 17:44:23.231 +05:30 [INF] Main thread ID: 1
+2025-06-13 17:44:23.231 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Aramex\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 17:44:23.233 +05:30 [INF] Processing files for domain: Aramex, invoiceType: SLV
+2025-06-13 17:44:23.566 +05:30 [INF] Extracted Invoice Number: INV01
+2025-06-13 17:44:23.566 +05:30 [INF] Extracted Invoice Type: 01
+2025-06-13 17:44:23.566 +05:30 [INF] Extracted Domain Name: Aramex
+2025-06-13 17:44:23.774 +05:30 [INF] CSV Data Found
+2025-06-13 17:44:23.812 +05:30 [INF] Invoicedata
+2025-06-13 17:44:23.987 +05:30 [INF] Invoice Line Items
+2025-06-13 17:44:23.994 +05:30 [INF] DocTaxSubTotal
+2025-06-13 17:44:24.004 +05:30 [INF] Method SLVInvLMapping not found in PDFMappingService.
+2025-06-13 17:44:24.005 +05:30 [INF] Method SLVLineMapping not found in PDFMappingService.
+2025-06-13 17:44:24.137 +05:30 [INF] Finished processing Invoice
+2025-06-13 17:44:24.137 +05:30 [INF] All invoices processed
+2025-06-13 17:44:24.334 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Aramex\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 17:44:24.334 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-13 17:44:24.334 +05:30 [INF] Total time taken in process: 0.7687439 seconds
+2025-06-13 17:44:24.336 +05:30 [INF] Successfully moved: C:\BackOffice\ETL_Replacement\Aramex\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv to C:\BackOffice\ETL_Replacement\Aramex\SLV\Input\Processed\SLV_01_v1_20250530_INV01_Processed.csv
+2025-06-13 17:44:24.337 +05:30 [INF] Total time taken in moving: 0.0021249 seconds

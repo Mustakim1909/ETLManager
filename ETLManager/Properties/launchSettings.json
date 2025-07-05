@@ -1,7 +1,8 @@
 {
   "profiles": {
     "ETLManager": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "sqlDebugging": false
     },
     "WSL": {
       "commandName": "WSL2",

@@ -1,0 +1,333 @@
+2025-03-19 09:12:51.282 +05:30 [INF] Application starting up
+2025-03-19 09:12:53.392 +05:30 [INF] Start
+2025-03-19 09:12:53.394 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:12:53.396 +05:30 [INF] Processing domain: PIL
+2025-03-19 09:12:53.579 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 09:12:53.581 +05:30 [INF] ETL path does not exist, please check the configuration file path
+2025-03-19 09:12:53.594 +05:30 [INF] ETL path does not exist, please check the configuration file path
+2025-03-19 09:14:55.939 +05:30 [INF] Application starting up
+2025-03-19 09:14:56.425 +05:30 [INF] Start
+2025-03-19 09:14:56.429 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:14:56.430 +05:30 [INF] Processing domain: PIL
+2025-03-19 09:15:21.831 +05:30 [INF] Application starting up
+2025-03-19 09:15:22.548 +05:30 [INF] Start
+2025-03-19 09:15:22.550 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:15:22.552 +05:30 [INF] Processing domain: PIL
+2025-03-19 09:16:59.296 +05:30 [INF] Application starting up
+2025-03-19 09:17:00.067 +05:30 [INF] Start
+2025-03-19 09:17:00.069 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:17:00.071 +05:30 [INF] Processing domain: PIL
+2025-03-19 09:17:38.142 +05:30 [INF] Application starting up
+2025-03-19 09:17:38.637 +05:30 [INF] Start
+2025-03-19 09:17:38.639 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:17:41.636 +05:30 [INF] Processing domain: PIL
+2025-03-19 09:19:00.413 +05:30 [INF] Application starting up
+2025-03-19 09:19:00.920 +05:30 [INF] Start
+2025-03-19 09:19:00.922 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 09:19:03.883 +05:30 [INF] Processing domain: PIL
+2025-03-19 11:28:35.000 +05:30 [INF] Application starting up
+2025-03-19 11:28:35.640 +05:30 [INF] Start
+2025-03-19 11:28:35.642 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 11:28:37.175 +05:30 [INF] Processing domain: PIL
+2025-03-19 11:28:37.188 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP.csv
+2025-03-19 11:28:37.432 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 11:28:37.433 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 11:28:37.433 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 11:28:37.436 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 11:28:37.437 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 11:28:37.437 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 11:28:37.569 +05:30 [INF] Application starting up
+2025-03-19 11:28:37.585 +05:30 [INF] Application starting up
+2025-03-19 11:28:37.623 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 11:28:37.635 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 11:28:37.757 +05:30 [INF] Start
+2025-03-19 11:28:37.765 +05:30 [INF] Start
+2025-03-19 11:28:37.817 +05:30 [INF] Main thread ID: 1
+2025-03-19 11:28:37.817 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP.csv
+2025-03-19 11:28:37.819 +05:30 [INF] Processing files for domain: CNSUN, invoiceType: Input
+2025-03-19 11:28:37.827 +05:30 [INF] Main thread ID: 1
+2025-03-19 11:28:37.833 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP.csv
+2025-03-19 11:28:37.835 +05:30 [INF] Processing files for domain: CNSUN, invoiceType: Input
+2025-03-19 11:28:38.941 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 11:28:38.942 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 11:28:38.944 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 11:28:38.944 +05:30 [INF] Extracted Domain Name: CNSUN
+2025-03-19 11:28:38.944 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 11:28:38.945 +05:30 [INF] Extracted Domain Name: CNSUN
+2025-03-19 11:28:39.039 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 11:28:39.040 +05:30 [INF] 
+2025-03-19 11:28:39.042 +05:30 [INF] POSITION: 15
+2025-03-19 11:28:39.045 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 11:28:39.045 +05:30 [INF] 
+2025-03-19 11:28:39.045 +05:30 [INF] POSITION: 15
+2025-03-19 11:28:39.053 +05:30 [INF] Exception In ReadCsv
+2025-03-19 11:28:39.053 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.055 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.056 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.057 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.057 +05:30 [INF] Error processing files for domain CNSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.058 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 11:28:39.058 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP.csv
+2025-03-19 11:28:39.058 +05:30 [INF] Exception In ReadCsv
+2025-03-19 11:28:39.059 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.059 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.060 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.060 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.060 +05:30 [INF] Error processing files for domain CNSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 11:28:39.061 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 11:28:39.061 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP.csv
+2025-03-19 11:29:03.449 +05:30 [INF] Application starting up
+2025-03-19 11:29:04.173 +05:30 [INF] Start
+2025-03-19 11:29:04.174 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 11:29:05.567 +05:30 [INF] Processing domain: PIL
+2025-03-19 13:15:43.620 +05:30 [INF] Application starting up
+2025-03-19 13:15:44.606 +05:30 [FTL] Application start-up failed
+System.InvalidOperationException: Unable to resolve service for type 'ETL.Service.Repo.Interface.IETLManagerService' while attempting to activate 'ETLManager.ETLManagerWatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 58
+2025-03-19 13:16:06.244 +05:30 [INF] Application starting up
+2025-03-19 13:16:06.982 +05:30 [FTL] Application start-up failed
+System.InvalidOperationException: Unable to resolve service for type 'ETL.Service.Repo.Interface.IETLManagerService' while attempting to activate 'ETLManager.ETLManagerWatcher'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 58
+2025-03-19 14:43:56.387 +05:30 [INF] Application starting up
+2025-03-19 14:44:28.857 +05:30 [INF] Start
+2025-03-19 14:47:38.036 +05:30 [INF] Application starting up
+2025-03-19 14:47:43.649 +05:30 [INF] Start
+2025-03-19 14:49:51.649 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 14:49:51.649 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 14:49:59.837 +05:30 [INF] Processing domain: PIL
+2025-03-19 14:49:59.839 +05:30 [INF] Processing domain: PIL
+2025-03-19 14:51:27.296 +05:30 [INF] Processing domain: PIL
+2025-03-19 14:54:00.414 +05:30 [INF] Application starting up
+2025-03-19 14:54:08.514 +05:30 [INF] Start
+2025-03-19 14:54:15.084 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 14:54:15.084 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 14:54:52.482 +05:30 [INF] Processing domain: PIL
+2025-03-19 14:54:53.079 +05:30 [INF] Processing domain: PIL
+2025-03-19 14:55:02.857 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP_WIP.csv
+2025-03-19 14:55:03.751 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 14:55:03.757 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 14:55:03.766 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 14:55:03.766 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 14:55:03.774 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 14:55:03.774 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 14:55:04.407 +05:30 [INF] Application starting up
+2025-03-19 14:55:04.408 +05:30 [INF] Application starting up
+2025-03-19 14:55:05.887 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 14:55:05.887 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 14:55:06.664 +05:30 [INF] Start
+2025-03-19 14:55:06.666 +05:30 [INF] Start
+2025-03-19 14:55:06.726 +05:30 [INF] Main thread ID: 1
+2025-03-19 14:55:06.726 +05:30 [INF] Main thread ID: 1
+2025-03-19 14:55:06.726 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP_WIP.csv
+2025-03-19 14:55:06.726 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP_WIP.csv
+2025-03-19 14:55:06.728 +05:30 [INF] Processing files for domain: INSUN, invoiceType: Input
+2025-03-19 14:55:06.728 +05:30 [INF] Processing files for domain: INSUN, invoiceType: Input
+2025-03-19 14:55:08.113 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 14:55:08.114 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 14:55:08.114 +05:30 [INF] Extracted Domain Name: INSUN
+2025-03-19 14:55:08.115 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 14:55:08.115 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 14:55:08.116 +05:30 [INF] Extracted Domain Name: INSUN
+2025-03-19 14:55:08.209 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 14:55:08.210 +05:30 [INF] 
+2025-03-19 14:55:08.210 +05:30 [INF] POSITION: 15
+2025-03-19 14:55:08.222 +05:30 [INF] Exception In ReadCsv
+2025-03-19 14:55:08.223 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.224 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.225 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.225 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.225 +05:30 [INF] Error processing files for domain INSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.226 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 14:55:08.226 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP_WIP.csv
+2025-03-19 14:55:08.233 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 14:55:08.233 +05:30 [INF] 
+2025-03-19 14:55:08.233 +05:30 [INF] POSITION: 15
+2025-03-19 14:55:08.246 +05:30 [INF] Exception In ReadCsv
+2025-03-19 14:55:08.247 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.247 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.247 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.248 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.248 +05:30 [INF] Error processing files for domain INSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 14:55:08.249 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 14:55:08.249 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_Processed_WIP_WIP.csv
+2025-03-19 15:02:36.623 +05:30 [INF] Application starting up
+2025-03-19 15:02:37.213 +05:30 [INF] Start
+2025-03-19 15:02:47.845 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 15:02:54.963 +05:30 [INF] Processing domain: PIL
+2025-03-19 15:05:05.971 +05:30 [INF] Error processing files in directory C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source: Cannot create a file when that file already exists.
+2025-03-19 15:06:11.023 +05:30 [INF] Application starting up
+2025-03-19 15:06:11.882 +05:30 [INF] Start
+2025-03-19 15:06:16.692 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 15:06:21.081 +05:30 [INF] Processing domain: PIL
+2025-03-19 15:06:41.185 +05:30 [INF] Error processing domain PIL: Failed to connect to 219.93.129.160:5049
+2025-03-19 15:06:41.391 +05:30 [INF] An error occurred while starting the watcher: Failed to connect to 219.93.129.160:5049
+2025-03-19 15:06:41.505 +05:30 [FTL] Application start-up failed
+Npgsql.NpgsqlException (0x80004005): Failed to connect to 219.93.129.160:5049
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at ETL.Service.Repo.PostgreSql.ETLManagerService.GetPath() in G:\ETL-Manager\ETLManager.Service\Repo\PostgreSql\ETLManagerService.cs:line 44
+   at ETLManager.ETLManagerWatcher.ProcessDomainFiles(String SourcePath, String domainName, CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 108
+   at ETLManager.ETLManagerWatcher.<>c__DisplayClass7_1.<<StartAsync>b__0>d.MoveNext() in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 87
+--- End of stack trace from previous location ---
+   at ETLManager.ETLManagerWatcher.StartAsync(CancellationToken cancellationToken) in G:\ETL-Manager\ETLManager\ETLManagerWatcher.cs:line 91
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at ETLManager.Program.Main(String[] args) in G:\ETL-Manager\ETLManager\Program.cs:line 61
+2025-03-19 15:06:44.434 +05:30 [INF] Application starting up
+2025-03-19 15:06:45.220 +05:30 [INF] Start
+2025-03-19 15:06:55.470 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 15:07:01.476 +05:30 [INF] Processing domain: PIL
+2025-03-19 15:07:57.839 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:07:57.840 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:08:02.541 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 15:08:02.542 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 15:08:02.542 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 15:08:02.543 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 15:08:02.550 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 15:08:02.551 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 15:08:02.701 +05:30 [INF] Application starting up
+2025-03-19 15:08:02.701 +05:30 [INF] Application starting up
+2025-03-19 15:08:02.748 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 15:08:02.749 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 15:08:02.881 +05:30 [INF] Start
+2025-03-19 15:08:02.882 +05:30 [INF] Start
+2025-03-19 15:08:02.942 +05:30 [INF] Main thread ID: 1
+2025-03-19 15:08:02.942 +05:30 [INF] Main thread ID: 1
+2025-03-19 15:08:02.942 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:08:02.942 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:08:02.942 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:08:02.942 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:08:02.945 +05:30 [INF] Processing files for domain: INSUN, invoiceType: Input
+2025-03-19 15:08:02.946 +05:30 [INF] Processing files for domain: INSUN, invoiceType: Input
+2025-03-19 15:08:04.039 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 15:08:04.040 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:08:04.040 +05:30 [INF] Extracted Domain Name: INSUN
+2025-03-19 15:08:04.126 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:08:04.127 +05:30 [INF] 
+2025-03-19 15:08:04.127 +05:30 [INF] POSITION: 15
+2025-03-19 15:08:04.141 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:08:04.142 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.142 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.143 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.143 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.144 +05:30 [INF] Error processing files for domain INSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.144 +05:30 [INF] Processing files for domain: INTEL, invoiceType: Input
+2025-03-19 15:08:04.160 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 15:08:04.161 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:08:04.161 +05:30 [INF] Extracted Domain Name: INSUN
+2025-03-19 15:08:04.233 +05:30 [INF] Extracted Invoice Number: TELINV01
+2025-03-19 15:08:04.234 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:08:04.234 +05:30 [INF] Extracted Domain Name: INTEL
+2025-03-19 15:08:04.257 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:08:04.258 +05:30 [INF] 
+2025-03-19 15:08:04.258 +05:30 [INF] POSITION: 15
+2025-03-19 15:08:04.272 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:08:04.272 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.273 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.273 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.273 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.274 +05:30 [INF] Error processing files for domain INSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.274 +05:30 [INF] Processing files for domain: INTEL, invoiceType: Input
+2025-03-19 15:08:04.312 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:08:04.313 +05:30 [INF] 
+2025-03-19 15:08:04.313 +05:30 [INF] POSITION: 15
+2025-03-19 15:08:04.315 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:08:04.316 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.316 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.317 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.317 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.317 +05:30 [INF] Error processing files for domain INTEL: No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.318 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 15:08:04.319 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:08:04.320 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:08:04.519 +05:30 [INF] Extracted Invoice Number: TELINV01
+2025-03-19 15:08:04.520 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:08:04.521 +05:30 [INF] Extracted Domain Name: INTEL
+2025-03-19 15:08:04.612 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:08:04.613 +05:30 [INF] 
+2025-03-19 15:08:04.614 +05:30 [INF] POSITION: 15
+2025-03-19 15:08:04.615 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:08:04.615 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.616 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.616 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.617 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.617 +05:30 [INF] Error processing files for domain INTEL: No mappings were specified in the CsvClassMap.
+2025-03-19 15:08:04.617 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 15:08:04.618 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:08:04.618 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:14:36.208 +05:30 [INF] Application starting up
+2025-03-19 15:14:46.385 +05:30 [INF] Application starting up
+2025-03-19 15:14:47.248 +05:30 [INF] Start
+2025-03-19 15:14:51.745 +05:30 [INF] Started task: Processing domain: PIL
+2025-03-19 15:14:53.197 +05:30 [INF] Processing domain: PIL
+2025-03-19 15:15:00.767 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:15:00.767 +05:30 [INF] File Fetched: C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:15:04.258 +05:30 [INF] LogDirectory :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log
+2025-03-19 15:15:04.258 +05:30 [INF] LogFileName :- filePaths.txt
+2025-03-19 15:15:04.258 +05:30 [INF] Logfilepath :- G:\ETL-Worker\ETLDEMO\bin\Debug\net6.0\log\filePaths.txt_TraceFile.txt
+2025-03-19 15:15:04.402 +05:30 [INF] Application starting up
+2025-03-19 15:15:04.518 +05:30 [INF] C:\Users\HP\AppData\Local\Temp\filePaths.txt
+2025-03-19 15:15:04.650 +05:30 [INF] Start
+2025-03-19 15:15:04.712 +05:30 [INF] Main thread ID: 1
+2025-03-19 15:15:04.712 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:15:04.712 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-19 15:15:04.714 +05:30 [INF] Processing files for domain: INSUN, invoiceType: Input
+2025-03-19 15:15:06.267 +05:30 [INF] Extracted Invoice Number: SUNT-INV-0E
+2025-03-19 15:15:06.267 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:15:06.268 +05:30 [INF] Extracted Domain Name: INSUN
+2025-03-19 15:15:06.368 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:15:06.368 +05:30 [INF] 
+2025-03-19 15:15:06.369 +05:30 [INF] POSITION: 15
+2025-03-19 15:15:06.381 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:15:06.382 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.383 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.386 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.388 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.388 +05:30 [INF] Error processing files for domain INSUN: No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.389 +05:30 [INF] Processing files for domain: INTEL, invoiceType: Input
+2025-03-19 15:15:06.478 +05:30 [INF] Extracted Invoice Number: TELINV01
+2025-03-19 15:15:06.479 +05:30 [INF] Extracted Invoice Type: 01
+2025-03-19 15:15:06.480 +05:30 [INF] Extracted Domain Name: INTEL
+2025-03-19 15:15:06.565 +05:30 [INF] Exception in InvoiceDataMapping: 42P01: relation "invoicecsvfieldconfiguration" does not exist
+2025-03-19 15:15:06.566 +05:30 [INF] 
+2025-03-19 15:15:06.567 +05:30 [INF] POSITION: 15
+2025-03-19 15:15:06.567 +05:30 [INF] Exception In ReadCsv
+2025-03-19 15:15:06.568 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.568 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.568 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.569 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.569 +05:30 [INF] Error processing files for domain INTEL: No mappings were specified in the CsvClassMap.
+2025-03-19 15:15:06.570 +05:30 [INF] The following files were not found and skipped:
+2025-03-19 15:15:06.570 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-19 15:15:06.571 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv

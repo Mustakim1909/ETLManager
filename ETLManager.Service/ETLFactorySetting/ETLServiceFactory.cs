@@ -1,5 +1,7 @@
 ﻿using Common.Config;
 using ETL.Service.Repo.Interface;
+using ETLManager.Service.Model;
+using Microsoft.Extensions.Options;
 
 
 namespace ETL.Service.ETLDemoFactorySetting
@@ -8,6 +10,7 @@ namespace ETL.Service.ETLDemoFactorySetting
     {
         public static IETLManagerService GetETLDemoService(DbConfig dbConfig)
         {
+        
             switch (dbConfig.DataProvider.ToLower().Trim())
             {
                 case "sqlserver": return new ETL.Service.Repo.MSSQL.ETLManagerService(dbConfig);

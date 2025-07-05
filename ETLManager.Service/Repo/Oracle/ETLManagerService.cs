@@ -18,7 +18,7 @@ namespace ETL.Service.Repo.Oracle
     {
         public QueryHelper _queryHelper = null;
         public string _connectionString = null;
-        public ETLManagerService(DbConfig dbConfig)
+            public ETLManagerService(DbConfig dbConfig)
         {
 
             var encPassword = string.Empty;
@@ -34,11 +34,11 @@ namespace ETL.Service.Repo.Oracle
             throw new NotImplementedException();
         }
 
-        public Task<List<FileNamePrefix>> GetPath()
+        public Task<List<FileNamePrefix>> GetPath(string CompanyName)
+
         {
             throw new NotImplementedException();
         }
-
         public Task SetConnectionString(string connectionstring)
         {
             throw new NotImplementedException();
